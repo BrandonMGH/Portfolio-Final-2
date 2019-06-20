@@ -1,0 +1,17 @@
+.title {
+    
+    height: 100vh;
+    color:black;
+    text-align: center; 
+    margin-top: 25%;
+    
+    font-size: 25px;
+    font-family: 'Permanent Marker', cursive;
+    background-color: white; 
+    overflow: hidden; 
+    
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+}
