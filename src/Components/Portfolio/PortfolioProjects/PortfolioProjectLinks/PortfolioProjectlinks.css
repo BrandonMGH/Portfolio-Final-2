@@ -13,7 +13,7 @@
 
 .imgBorder {
     border-style: solid;
-    border-color: white; 
+    border-color: black; 
 }
 
 .ProjTitle {
@@ -22,7 +22,7 @@
 }
 
 .text {
-  color: white;
+  color: black;
   text-decoration: none
 }
 

@@ -22,10 +22,7 @@ class Skills extends Component {
   render() {
     return (
     <div className="SkillsBlack">
-      
       <h1>-SKILLS-</h1>
-     
-
       <Row >
         <Col md={4} className="SkillCol">
         <h3>HTML</h3>

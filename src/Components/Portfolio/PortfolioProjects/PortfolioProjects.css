@@ -1,6 +1,6 @@
 .portfolioProjectTitle{
     margin-top: 100px;  
-    color: white; 
+    color: black; 
 }
 
 .CarouselImg {
@@ -10,7 +10,7 @@
 }
 
 .Carousel, .box {
-    background: white;
+    background: black;
     width: 20%;
     margin: 0 auto; 
     padding: 5px;
@@ -38,14 +38,14 @@ font-size: 50px;
 
 
 .Black{
-    background-color: black;
+    background-color: white;
     padding-bottom: 50px; 
     width: 100vw; 
     
 }
 
 .White{
-    color: white;
+    color: black;
     width: 100%;
     margin: 0 auto; 
     /* padding: 15px; */
@@ -78,10 +78,10 @@ li {
     top: 30%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
     width: 60%; /* Set the width of the positioned div */
-    color: white; 
-    background: black;
+    color: black; 
+    background: white;
     border-style: solid;
-    border-color: white;
+    border-color: black;
     opacity: .5; 
 }
 
