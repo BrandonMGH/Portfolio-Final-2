@@ -20,11 +20,6 @@ import Footer from '../Footer/Footer'
 class Main extends Component {
 
 
-  OnClickTest() {
-    return console.log("hi again")
-  }
-
-
   render() {
     return (
 <Container>
@@ -49,6 +44,7 @@ class Main extends Component {
     </nav>
 
     <div ><Title /></div>
+    <div className="Box"><p className="Box">Test</p></div>
     <div className="AboutMeScroll"><AboutMe /></div>
     <div className="SkillsScroll"><Skills /></div>
     <div><Bufferzone /></div>

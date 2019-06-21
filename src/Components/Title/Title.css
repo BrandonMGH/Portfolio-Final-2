@@ -1,17 +1,22 @@
 .title {
     
-    height: 100vh;
+    height: 100vh; 
     width: 100vw; 
     color:black;
     text-align: center; 
     font-size: 25px;
     font-family: 'Permanent Marker', cursive;
-    background-color: #320D6D; 
-    overflow: hidden; 
-    padding-top: 250px; 
+    background-position: center;
+    background-size: cover;
+    background-image: url('./Images/codingbackground.jpg');
+    overflow: hidden;  
 }
 
-
+.titleText{
+    position: relative;
+    top: 25%;
+    color: white; 
+}
 
 h1 {
     font-family: 'Permanent Marker', cursive;

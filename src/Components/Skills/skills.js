@@ -2,12 +2,12 @@ import React, { Component } from "react";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import './skills.css'
-import HTMLimage from '../Images/HTMLimage.png'
-import CSSImage from '../Images/CSSimage.png'
-import JSimage from '../Images/JSimage.png'
-import Nodeimage from '../Images/Nodeimage.png'
-import Databaseimage from '../Images/Databaseimage.png'
-import Otherimage from '../Images/Otherimage.png'
+import HTMLimage from '../Skills/Images/HTMLimage.png'
+import CSSimage from '../Skills/Images/CSSimage.png'
+import JSimage from '../Skills/Images/JSimage.png'
+import Nodeimage from '../Skills/Images/Nodeimage.png'
+import Databaseimage from '../Skills/Images/Databaseimage.png'
+import Otherimage from '../Skills/Images/Otherimage.png'
 
 
 
@@ -33,7 +33,7 @@ class Skills extends Component {
        </Col>
        <Col md={4} className="SkillCol">
        <h3>CSS</h3>
-       <img src={CSSImage} className="SkillsImg2" alt="me"/>
+       <img src={CSSimage} className="SkillsImg2" alt="me"/>
        </Col>
        <Col md={4} className="SkillCol">
         <h3>JavaScript</h3>

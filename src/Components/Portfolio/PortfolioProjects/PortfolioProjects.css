@@ -39,9 +39,7 @@ font-size: 50px;
 
 .Black{
     background-color: black;
-    padding-bottom: 50px;
-    border-style: solid;
-    border-color: grey; 
+    padding-bottom: 50px; 
     width: 100vw; 
     
 }
