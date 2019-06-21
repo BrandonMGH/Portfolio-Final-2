@@ -1,4 +1,8 @@
 
+body {
+  font-family: "Avenir Next", "Avenir", sans-serif;
+}
+
 a
 {
   text-decoration: none;
@@ -116,7 +120,7 @@ a:hover
   padding-top: 125px;
   border-style: solid;
   border-color: grey;
-  background: #AB2346;
+  background: #700353;
   color: white; 
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
