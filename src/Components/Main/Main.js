@@ -10,6 +10,8 @@ import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/skills'
 import Bufferzone from '../Bufferzone/Bufferzone'
 import Portfolio from '../Portfolio/Portfolio'
+import ContactMe from '../ContactMe/ContactMe'
+import Footer from '../Footer/Footer'
 
 
 
@@ -51,7 +53,8 @@ class Main extends Component {
     <div className="SkillsScroll"><Skills /></div>
     <div><Bufferzone /></div>
     <div className="PortfolioScroll" ><Portfolio /></div>
-    <div className="ContactMeScroll">Contact</div>
+    <div className="ContactMeScroll"><ContactMe /></div>
+    <div><Footer /></div>
 
   
   </Container>
