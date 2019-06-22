@@ -31,7 +31,7 @@ class HTMLCSSJS extends Component {
          <LightSpeed left>
              <Row>
       
-          <h3 className="projBorder">HTML/CSS/Javascript Projects</h3> 
+          <h3 className="projBorder">HTML/CSS/JAVASCRIPT PROJECTS</h3> 
           {javascriptProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">

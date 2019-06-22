@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import './Portfolio.css'
 import PortfolioProjects from './PortfolioProjects/PortfolioProjects'
 
 

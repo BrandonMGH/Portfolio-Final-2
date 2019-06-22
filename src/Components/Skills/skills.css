@@ -1,38 +1,12 @@
-.SkillsBlack {
-    color: black;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 100vw; 
-    /* margin-left: auto;
-    margin-right: auto;  */
+.SkillsTitle{
+    text-align: center; 
 }
 
-.SkillsImg, .SkillsImg2, .SkillsImg3 { 
-   
+.SkillsCol {
+    width: 33%;
     margin: 0 auto; 
     float: left; 
     text-align: center;
     padding-top: 50px; 
     margin-top: 50px; 
-      
-    
-    }
-
-
-h1, h3 {
-    text-align: center;
-  
-}
-
-
-.SkillCol {
-    width: 33%; 
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
-    float: left;  
-    
-   
-
 }

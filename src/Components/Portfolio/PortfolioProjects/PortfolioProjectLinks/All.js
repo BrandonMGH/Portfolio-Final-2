@@ -35,7 +35,7 @@ class All extends Component {
       <Container>
         <LightSpeed left>
         <Row>
-          <h3 className="projBorder">HTML/CSS/Javascript Projects</h3> 
+          <h3 className="projBorder">HTML/CSS/JAVASCRIPT PROJECTS</h3> 
           {javascriptProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">
@@ -52,7 +52,7 @@ class All extends Component {
         </Row>
          
         <Row >
-        <h3 className="projTitle projBorder">NODE Projects</h3> 
+        <h3 className="projTitle projBorder">NODE PROJECTS</h3> 
           {nodeProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">

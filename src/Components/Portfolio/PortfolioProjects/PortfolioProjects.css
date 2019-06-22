@@ -3,6 +3,10 @@
     color: black; 
 }
 
+.projBorder{
+    text-align: center; 
+}
+
 .CarouselImg {
     justify-content: center;
     height: 250px; 

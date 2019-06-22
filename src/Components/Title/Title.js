@@ -2,7 +2,6 @@ import React, { Component } from "react";
 // import GoogleFontLoader from 'react-google-font-loader';
 import Bounce from 'react-reveal/Bounce';
 import "./Title.css";
-import lightparticles from './Images/lightparticles.jpg'
 
 class Title extends Component {
   
