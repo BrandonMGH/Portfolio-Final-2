@@ -10,7 +10,7 @@
     background-size: cover;
     background-image: url('./Images/codingbackground.jpg');
     overflow: hidden;  
-    margin-bottom: 50px; 
+    padding-bottom:100px;  
 }
 
 .titleText{

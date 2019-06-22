@@ -8,8 +8,13 @@
 }
 
 .SkillsImg, .SkillsImg2, .SkillsImg3 { 
-    width: 400px; 
-
+   
+    margin: 0 auto; 
+    float: left; 
+    text-align: center;
+    padding-top: 50px; 
+    margin-top: 50px; 
+      
     
     }
 
@@ -27,5 +32,7 @@ h1, h3 {
     margin-top: 0;
     margin-bottom: 0;
     float: left;  
+    
+   
 
 }
