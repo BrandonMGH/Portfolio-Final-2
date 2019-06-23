@@ -14,9 +14,8 @@ import ProjectObject from './PortfolioProjectlinkobject'
 class All extends Component {
 
   state = {
-    javascriptProj: ProjectObject.javascriptProj,
-    nodeProj: ProjectObject.NodeProj,
-    reactProj: ProjectObject.reactProj,
+    TopProj: ProjectObject.TopProj,
+
     shownProject: null
   }
 
@@ -26,17 +25,16 @@ class All extends Component {
 
   render() {
 
-    const javascriptProj = this.state.javascriptProj
-    const nodeProj = this.state.nodeProj
-    const reactProj = this.state.reactProj
+    const TopProj = this.state.TopProj
+
 
     
     return (
       <Container>
         <LightSpeed left>
         <Row>
-          <h3 className="projBorder">HTML/CSS/JAVASCRIPT PROJECTS</h3> 
-          {javascriptProj.map(properties => (
+          <h3 className="projBorder">Top Projects</h3> 
+          {TopProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">
                 <a href={properties.portfolioLink}>
@@ -45,36 +43,6 @@ class All extends Component {
                   <p className="text" >{properties.paragraph}</p>
                   </div>
                 </a>   
-              </Col>
-            </div>
-          ))}
-
-        </Row>
-         
-        <Row >
-        <h3 className="projTitle projBorder">NODE PROJECTS</h3> 
-          {nodeProj.map(properties => (
-            <div>
-              <Col xs={12} md={4} className="ProjectCol hover">
-                <a href={properties.portfolioLink}>
-                  <img src={properties.picture} className="imgBorder" width="250" height="200" />
-                  <p className="text">{properties.paragraph}</p>
-                </a>
-              </Col>
-            </div>
-          ))}
-
-        </Row>
-  
-        <Row>
-          <h3 className="projTitle projBorder">REACT PROJECTS</h3> 
-          {reactProj.map(properties => (
-            <div>
-              <Col xs={12} md={4} className="ProjectCol hover">
-                <a href={properties.portfolioLink}>
-                  <img src={properties.picture} className="imgBorder" width="250" height="200" />
-                  <p className="text">{properties.paragraph}</p>
-                </a>
               </Col>
             </div>
           ))}
