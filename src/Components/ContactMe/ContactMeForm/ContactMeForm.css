@@ -4,7 +4,12 @@
    
 .contactMeContainer {
     color: white; 
-    background-color: #700353
+    background-position: center;
+    background-size: cover;
+    background-image: url('./Images/ContactMeFormBackground.jpg');
+    padding-top: 200px;
+    margin-top: -5px; 
+    padding-bottom: 50px; 
 }
 
 #contact-form {
