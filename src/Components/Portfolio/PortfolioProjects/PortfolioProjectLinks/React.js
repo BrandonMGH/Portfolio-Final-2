@@ -31,7 +31,7 @@ class ReactProj extends Component {
       <Container>
            <LightSpeed left>
         <Row>
-          <h3 className="projBorder">React Projects</h3> 
+          <h3 className="projBorder">REACT PROJECTS</h3> 
           {reactProj.map(properties => (
             <div>
               <Col xs={12} md={4} className="ProjectCol hover">

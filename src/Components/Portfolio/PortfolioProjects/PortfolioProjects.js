@@ -16,55 +16,55 @@ import ReactProj from '../PortfolioProjects/PortfolioProjectLinks/React'
 
 class PortfolioProjects extends Component {
 
-    state = {
-     
-      shownProject: <All />
-    };
+  state = {
 
-    handleButtonClickOne = () => {
-      this.setState({shownProject: <HTMLCSSJS />})  
+    shownProject: <All />
+  };
+
+  handleButtonClickOne = () => {
+    this.setState({ shownProject: <HTMLCSSJS /> })
   }
   handleButtonClickTwo = () => {
-    this.setState({shownProject: <Node />})  
-}
-handleButtonClickThree = () => {
-  this.setState({shownProject: <ReactProj />})  
-}
-handleButtonClickFour = () => {
-  this.setState({shownProject: <All />})  
-}
+    this.setState({ shownProject: <Node /> })
+  }
+  handleButtonClickThree = () => {
+    this.setState({ shownProject: <ReactProj /> })
+  }
+  handleButtonClickFour = () => {
+    this.setState({ shownProject: <All /> })
+  }
 
   render() {
-  
+
     return (
-    <div className="Black">
+      <div className="Black">
         <h1 className="portfolioProjectTitle" align="middle">-PORTFOLIO-</h1>
         <div onClick={this.handleButtonClickOne} className="box">
-        <img className="CarouselImg" src={got2} align="middle"></img>
-        <div className="text">
+          <img className="CarouselImg" src={got2} align="middle"></img>
+          <div className="text">
             <h2>JAVASCRIPT PROJECTS</h2>
-            
-        </div>
+
+          </div>
         </div>
         <div onClick={this.handleButtonClickTwo} className="box">
-        <img className="CarouselImg" src={chatbox} align="middle"></img>
-        <div className="text">
+          <img className="CarouselImg" src={chatbox} align="middle"></img>
+          <div className="text">
             <h2>NODE PROJECTS</h2>
-        </div>
+          </div>
         </div>
         <div onClick={this.handleButtonClickThree} className="box">
-        <img className="CarouselImg" src={cameragirl} align="middle"></img>
-        <div className="text">
+          <img className="CarouselImg" src={cameragirl} align="middle"></img>
+          <div className="text">
             <h2>REACT PROJECTS</h2>
-        </div>
+          </div>
         </div>
         <div onClick={this.handleButtonClickFour} className="box">
-        <img className="CarouselImg" src={codeall} align="middle"></img>
-        <div className="text">
-            <h2>ALL PROJECTS</h2>
+          <img className="CarouselImg" src={codeall} align="middle"></img>
+          <div className="text">
+            <h2>TOP PROJECTS</h2>
+          </div>
         </div>
-        </div>
-          <div className="White">{this.state.shownProject}</div>
+        <div className="White">{this.state.shownProject}</div>
       </div>
     );
   }
