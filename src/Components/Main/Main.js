@@ -38,12 +38,12 @@ class Main extends Component {
           <ScrollIntoView selector=".SkillsScroll"><a><li id="pointer">Skills</li></a></ScrollIntoView>
           <ScrollIntoView selector=".PortfolioScroll"><a><li id="pointer">Portfolio</li></a></ScrollIntoView>
           <ScrollIntoView selector=".ContactMeScroll"><a><li id="pointer">Contact</li></a></ScrollIntoView>
-          <a href="#"><li>Return to Top</li></a>
+          <ScrollIntoView selector=".TitleScroll"><a><li>Return to Top</li></a></ScrollIntoView>
         </ul>
       </div>
     </nav>
 
-    <div ><Title /></div>
+    <div className="TitleScroll"><Title /></div>
     <div className="AboutMeScroll"><AboutMe /></div>
     <div className="SkillsScroll"><Skills /></div>
     <div><Bufferzone /></div>
