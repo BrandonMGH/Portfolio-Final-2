@@ -114,7 +114,7 @@ const ProjectObject = {
             index: 0,
             picture: newspapers,
             paragraph: "NewsScraper",
-            portfolioLink: "https://codespot.herokuapp.com/"
+            portfolioLink: "https://quillette-app-scrap.herokuapp.com/"
         },
         {
             id: "02",
@@ -136,12 +136,12 @@ const ProjectObject = {
         {
             picture: newspapers,
             paragraph: "NewsScraper",
-            portfolioLink: "https://codespot.herokuapp.com/"
+            portfolioLink: "https://quillette-app-scrap.herokuapp.com/"
         },
         {
             picture: spongebob,
             paragraph: "Clicky-game",
-            portfolioLink: "https://spark-i-techs.herokuapp.com/"
+            portfolioLink: "https://clicky-game-reactjs-app.herokuapp.com/"
         },
         {
             picture: photographer,
