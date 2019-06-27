@@ -5,7 +5,7 @@ import WebFont from 'webfontloader';
 
 WebFont.load({
     google: {
-      families: ['Permanent Marker']
+      families: ['Permanent Marker','Pathway Gothic One','Rubik Mono One']
     }
   });
 
