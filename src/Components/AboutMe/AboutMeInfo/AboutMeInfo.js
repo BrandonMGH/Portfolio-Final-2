@@ -16,7 +16,7 @@ class AboutMeInfo extends Component {
             <div className="AboutMeContainer">
                 <h1 className="AboutMe">- ABOUT ME - </h1>
                 <img src={me} className="AboutMeImg" alt="me" />
-                <p className="AboutMe">I am a Full Stack Web Developer with a certificate of completion from the UC San Diego Bootcamp Extension Course.  I specialize in the creation dynamic websites that emphasize ease of use and timely responsiveness</p>
+                <p className="AboutMe">I am a Full Stack Web Developer with a certificate of completion from the UC San Diego Bootcamp Extension Course.  I specialize in the creation of dynamic websites that emphasize ease of use and timely responsiveness</p>
             </div>
            
             

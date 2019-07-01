@@ -17,37 +17,35 @@ class ReactProj extends Component {
     reactProj: ProjectObject.reactProj,
   }
 
-  
 
- 
+
+
 
   render() {
 
 
     const reactProj = this.state.reactProj
 
-    
     return (
       <Container>
-           <LightSpeed left>
-        <Row>
-          <h3 className="projBorder">REACT PROJECTS</h3> 
-          {reactProj.map(properties => (
-            <div>
-              <Col xs={12} md={4} className="ProjectCol hover">
-                <a href={properties.portfolioLink}>
-                  <img src={properties.picture} className="imgBorder" width="250" height="200" />
-                  <p className="text">{properties.paragraph}</p>
-                </a>
-              </Col>
-            </div>
-          ))}
+        <LightSpeed left>
+          <Row>
+            <h3 className="projBorder">REACT PROJECTS</h3>
+            {reactProj.map(properties => (
+              <div>
+                <Col xs={12} md={4} className="ProjectCol">
+                  <a href={properties.portfolioLink}><img src={properties.picture} className="imgBorder hover" width="250" height="200" /></a>
+                    <p className="text">{properties.paragraph}</p>
+                    <a href={properties.github} class="githubLink">Github Link</a>
+                </Col>
+              </div>
+            ))}
 
-        </Row>
+          </Row>
 
         </LightSpeed>
       </Container>
-      
+
 
     );
   }

@@ -29,11 +29,10 @@ class Node extends Component {
         <h3 className="projBorder">NODE PROJECTS</h3> 
           {nodeProj.map(properties => (
             <div>
-              <Col xs={12} md={4} className="ProjectCol hover">
-                <a href={properties.portfolioLink}>
-                  <img src={properties.picture} className="imgBorder" width="250" height="200" />
-                  <p className="text">{properties.paragraph}</p>
-                </a>
+              <Col xs={12} md={4} className="ProjectCol">
+                <a href={properties.portfolioLink}><img src={properties.picture} className="imgBorder hover" width="250" height="200" /></a>
+                  <h4 className="text">{properties.paragraph}</h4>
+                  <a href={properties.github} class="githubLink">Github Link</a>
               </Col>
             </div>
           ))}

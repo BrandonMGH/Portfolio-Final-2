@@ -5,7 +5,17 @@
     text-align: center;
     padding-top: 50px; 
     margin-top: 50px; 
-  
+
+}
+
+.gifColumn{
+    width: 33%;
+    margin: 0 auto; 
+    float: left; 
+    text-align: center;
+    padding-top: 50px; 
+    margin-top: 50px;
+
 
 }
 
@@ -13,11 +23,11 @@
 
 .imgBorder {
     border-style: solid;
+    border-width: 3px; 
     border-color: black; 
 }
 
 .ProjTitle {
-    width: 1000px;
     display: block; 
 }
 
@@ -26,8 +36,12 @@
   text-decoration: none
 }
 
+.githubLink{
+    color: black; 
+}
+
 .hover:hover{
-    background-color: grey; 
+    border-color: tomato; 
 }
 
 .titleCol{
