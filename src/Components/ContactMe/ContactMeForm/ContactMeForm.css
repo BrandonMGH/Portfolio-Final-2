@@ -13,28 +13,17 @@
     height: 750px; 
 }
 
-#contact-form {
-    margin: auto;
-    width: 50%;
-  
-   
-  
+
+.contactMeIconContainer {
+    width: 33%;
+    margin: 0 auto; 
+    float: left; 
+    text-align: center;
+    padding-top: 50px; 
+    margin-top: 50px; 
 }
 
-input, textarea {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px; 
-    margin-bottom: 25px; 
+.contactMeIcon{
+    height: 250px;
+    width: 250px;
 }
-
-input {
-    height: 25px; 
-}
-
-textarea {
-    height: 100px; 
-}
-
-

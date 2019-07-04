@@ -16,9 +16,10 @@ class ContactMeForm extends Component {
 
     return (
       <div className="contactMeContainer">
+        <h1 className="text-center">-Contact Me-</h1>
         {contactFormObj.map(properties =>(
-            <div>
-                <img src={properties.image}></img>
+            <div className="contactMeIconContainer">
+                <a href={properties.link} class="githubLink"><img src={properties.image} className="contactMeIcon"></img></a>
             </div>
         ))
 

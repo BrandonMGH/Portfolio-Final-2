@@ -2,6 +2,8 @@ import GitHubMark from './Images/GitHubMark.png'
 import linkedinlogo from './Images/linkedinlogo.png'
 import EmailLogofrom from './Images/EmailLogo.png'
 
+
+
 const contactFormObject = {
     contactFormArray:[ 
         {
@@ -11,13 +13,13 @@ const contactFormObject = {
     },
     {
         image: EmailLogofrom,
-        link: "https://www.linkedin.com/in/brandon-harris-471bb932/",
+        link: "mailto:BrandonMGH@Yahoo.com?Subject=Portfolio Email Message",
         text: "Linked",
 
     },
     {
         image: GitHubMark,
-        link: "https://www.linkedin.com/in/brandon-harris-471bb932/",
+        link: "https://github.com/BrandonMGH",
         text: "Linked",
 
     },
