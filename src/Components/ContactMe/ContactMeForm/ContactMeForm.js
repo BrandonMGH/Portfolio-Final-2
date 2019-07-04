@@ -22,7 +22,7 @@ class ContactMeForm extends Component {
             <a href={properties.link}><img src={properties.image} className="contactMeIcon"></img></a>
             <a href={properties.link}><h3>{properties.text}</h3></a>
           </div>
-        ))};
+        ))}
 
       </div>
 
