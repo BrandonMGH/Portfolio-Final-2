@@ -9,18 +9,18 @@ const contactFormObject = {
         {
         image: linkedinlogo,
         link: "https://www.linkedin.com/in/brandon-harris-471bb932/",
-        text: "Linked",
+        text: "LinkedIn",
     },
     {
         image: EmailLogofrom,
         link: "mailto:BrandonMGH@Yahoo.com?Subject=Portfolio Email Message",
-        text: "Linked",
+        text: "Email",
 
     },
     {
         image: GitHubMark,
         link: "https://github.com/BrandonMGH",
-        text: "Linked",
+        text: "GitHub",
 
     },
 ]
