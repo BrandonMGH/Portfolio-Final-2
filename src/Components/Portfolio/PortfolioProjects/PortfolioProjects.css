@@ -83,7 +83,7 @@ li {
     right: 0;
     top: 30%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 60%; /* Set the width of the positioned div */
+    width: 80%; /* Set the width of the positioned div */
     color: black; 
     background: white;
     border-style: solid;

@@ -30,9 +30,9 @@ class All extends Component {
 
     
     return (
-      <Container>
+    
         <LightSpeed left>
-        <Row>
+      
           <h3 className="projBorder">TOP PROJECTS</h3> 
           {TopProj.map(properties => (
             <div>
@@ -47,10 +47,10 @@ class All extends Component {
             </div>
           ))}
 
-        </Row>
+      
 
         </LightSpeed>
-      </Container>
+    
       
 
     );

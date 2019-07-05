@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import './Main.css'
 
 //**PAGES**//
-
+import NavigationBar from '../NavBar/Navbar'
 import Title from '../Title/Title'
 import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/skills'
@@ -21,9 +21,9 @@ class Main extends Component {
 
 
   render() {
-    return (
-<Container>
-    <nav role="navigation">
+    return (<div>
+
+    {/* <nav role="navigation">
       <div id="menuToggle">
 
        <input type="checkbox"/> 
@@ -41,18 +41,19 @@ class Main extends Component {
           <ScrollIntoView selector=".TitleScroll"><a><li>Return to Top</li></a></ScrollIntoView>
         </ul>
       </div>
-    </nav>
-
-    <div className="TitleScroll"><Title /></div>
+    </nav> */}
+    
+    <div><NavigationBar /></div>
+    <div className="TitleScroll" title><Title /></div>
     <div className="AboutMeScroll"><AboutMe /></div>
     <div className="SkillsScroll"><Skills /></div>
     <div><Bufferzone /></div>
     <div className="PortfolioScroll" ><Portfolio /></div>
     <div className="ContactMeScroll"><ContactMe /></div>
     <div><Footer /></div>
-
+    </div>
   
-  </Container>
+
 
     )
   }
