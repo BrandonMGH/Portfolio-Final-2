@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import ScrollIntoView from 'react-scroll-into-view'
-import Container from 'react-bootstrap/Container'
 import './Main.css'
 
 //**PAGES**//
@@ -21,6 +20,14 @@ class Main extends Component {
 
 
   render() {
+
+    const scrollIntoViewInfo = {
+      Title: "TitleScroll",
+      About: "AboutMeScroll",
+      Skills: "SkillsScroll",
+      Portfolio: "PortfolioScroll",
+      Contact: "ContactMeScroll"
+    }
     return (<div>
 
     {/* <nav role="navigation">
@@ -44,12 +51,12 @@ class Main extends Component {
     </nav> */}
     
     <div><NavigationBar /></div>
-    <div className="TitleScroll" title><Title /></div>
-    <div className="AboutMeScroll"><AboutMe /></div>
-    <div className="SkillsScroll"><Skills /></div>
+    <div className={scrollIntoViewInfo.Title} title="" title><Title /></div>
+    <div className={scrollIntoViewInfo.About}><AboutMe /></div>
+    <div className={scrollIntoViewInfo.Skills}><Skills /></div>
     <div><Bufferzone /></div>
-    <div className="PortfolioScroll" ><Portfolio /></div>
-    <div className="ContactMeScroll"><ContactMe /></div>
+    <div className={scrollIntoViewInfo.Portfolio}><Portfolio /></div>
+    <div className={scrollIntoViewInfo.Contact}><ContactMe /></div>
     <div><Footer /></div>
     </div>
   
