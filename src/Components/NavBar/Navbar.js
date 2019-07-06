@@ -9,7 +9,7 @@ export default class NavigationBar extends Component {
         return (
             <div className="fixed"> 
                 <Navbar bg="dark" className="color"expand="lg" >
-                    <Navbar.Brand ><span className="textColor">My Portfolio</span></Navbar.Brand>
+                    <Navbar.Brand ><span className="textColorPrimary">My Portfolio</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">

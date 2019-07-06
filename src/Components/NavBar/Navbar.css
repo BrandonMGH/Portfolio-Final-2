@@ -5,8 +5,21 @@
     
 }
 
-.textColor {
+
+
+.textColor, .textColorPrimary {
   
         color: white; 
         
+}
+
+.textColor:hover {
+    color: red; 
+}
+
+
+
+.textBold {
+
+    font-weight: 1000px; 
 }
