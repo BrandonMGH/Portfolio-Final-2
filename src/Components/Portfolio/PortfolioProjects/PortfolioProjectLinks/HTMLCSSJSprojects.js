@@ -27,9 +27,9 @@ class HTMLCSSJS extends Component {
     const javascriptProj = this.state.javascriptProj
 
     return (
-      <Container>
+     
         <LightSpeed left>
-          <Row>
+          
             <h3 className="projBorder">HTML/CSS/JAVASCRIPT PROJECTS</h3>
             {javascriptProj.map(properties => (
               <div>
@@ -44,9 +44,9 @@ class HTMLCSSJS extends Component {
               </div>
             ))}
 
-          </Row>
+      
         </LightSpeed>
-      </Container>
+     
 
 
     );

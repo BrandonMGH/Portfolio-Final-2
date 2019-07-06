@@ -33,7 +33,7 @@ class All extends Component {
     
         <LightSpeed left>
       
-          <h3 className="projBorder">TOP PROJECTS</h3> 
+          <h3 className="projBorder">FAVORITE PROJECTS</h3> 
           {TopProj.map(properties => (
             <div>
               <Col xs={12} md={4}  className="ProjectCol">

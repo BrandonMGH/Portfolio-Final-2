@@ -61,7 +61,7 @@ class PortfolioProjects extends Component {
         <div onClick={this.handleButtonClickFour} className="box">
           <img className="CarouselImg" src={codeall} align="middle"></img>
           <div className="text">
-            <h2>TOP PROJECTS</h2>
+            <h2>FAVORITE PROJECTS</h2>
           </div>
         </div>
         <div className="White">{this.state.shownProject}</div>

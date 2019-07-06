@@ -1,6 +1,6 @@
 .title {
     
-    height: 100vh; 
+    height: 1000px; 
     width: 100vw; 
     color:black;
     text-align: center; 
@@ -15,7 +15,7 @@
 
 .titleText{
     position: relative;
-    top: 25%;
+    top: 35%;
     color: white; 
 }
 

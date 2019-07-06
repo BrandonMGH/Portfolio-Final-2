@@ -8,18 +8,18 @@ export default class NavigationBar extends Component {
     render() {
         return (
             <div className="fixed"> 
-                <Navbar bg="dark" expand="lg" >
-                    <Navbar.Brand >My Portfolio</Navbar.Brand>
+                <Navbar bg="dark" className="color"expand="lg" >
+                    <Navbar.Brand ><span className="textColor">My Portfolio</span></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                             <ScrollIntoView selector=".AboutMeScroll"><Nav.Link>About Me</Nav.Link></ScrollIntoView>
-                             <ScrollIntoView selector=".SkillsScroll"><Nav.Link>Skills</Nav.Link></ScrollIntoView>
-                             <ScrollIntoView selector=".PortfolioScroll"><Nav.Link>Portfolio</Nav.Link></ScrollIntoView>
-                             <ScrollIntoView selector=".ContactMeScroll"><Nav.Link>Contact Me</Nav.Link></ScrollIntoView>
+                             <ScrollIntoView selector=".AboutMeScroll"><Nav.Link><span className="textColor">About Me</span></Nav.Link></ScrollIntoView>
+                             <ScrollIntoView selector=".SkillsScroll"><Nav.Link><span className="textColor">Skills</span></Nav.Link></ScrollIntoView>
+                             <ScrollIntoView selector=".PortfolioScroll"><Nav.Link><span className="textColor">Portfolio</span></Nav.Link></ScrollIntoView>
+                             <ScrollIntoView selector=".ContactMeScroll"><Nav.Link><span className="textColor">Contact Me</span></Nav.Link></ScrollIntoView>
                         </Nav>
                         <Form inline>
-                        <ScrollIntoView selector=".TitleScroll"><Nav.Link>Back to the Top</Nav.Link></ScrollIntoView>
+                        <ScrollIntoView selector=".TitleScroll"><Nav.Link><span className="textColor">Back to the Top</span></Nav.Link></ScrollIntoView>
                         </Form>
                     </Navbar.Collapse>
                 </Navbar>

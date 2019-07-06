@@ -27,9 +27,9 @@ class ReactProj extends Component {
     const reactProj = this.state.reactProj
 
     return (
-      <Container>
+ 
         <LightSpeed left>
-          <Row>
+    
             <h3 className="projBorder">REACT PROJECTS</h3>
             {reactProj.map(properties => (
               <div>
@@ -41,10 +41,9 @@ class ReactProj extends Component {
               </div>
             ))}
 
-          </Row>
 
         </LightSpeed>
-      </Container>
+  
 
 
     );

@@ -22,10 +22,10 @@ class Node extends Component {
     const nodeProj = this.state.nodeProj
      
     return (
-      <Container>
+     
        <LightSpeed left>
          
-        <Row>
+    
         <h3 className="projBorder">NODE PROJECTS</h3> 
           {nodeProj.map(properties => (
             <div>
@@ -37,10 +37,10 @@ class Node extends Component {
             </div>
           ))}
 
-        </Row>
+    
 
         </LightSpeed>
-      </Container>
+      
       
 
     );
