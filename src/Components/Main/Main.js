@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ScrollIntoView from 'react-scroll-into-view'
 import './Main.css'
 
 //**PAGES**//

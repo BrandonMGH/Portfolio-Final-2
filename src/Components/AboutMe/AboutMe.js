@@ -14,12 +14,10 @@ class AboutMe extends Component {
 
   render() {
     return (
-      <div className="AboutMeBackground">
-       
-        <AboutMeInfo />
-    
-      </div>
 
+        <div className="AboutMeBackground">
+          <AboutMeInfo />
+        </div>
     );
   }
 }

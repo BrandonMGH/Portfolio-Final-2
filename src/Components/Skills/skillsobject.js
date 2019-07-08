@@ -6,7 +6,7 @@ import Databaseimage from './Images/Databaseimage.png'
 import Otherimage from './Images/Otherimage.png'
 
 const skillsObject = {
-    skillsArray: [
+    skillsArrayOne: [
         {
             title: "HTML",
             image: HTMLimage,
@@ -19,6 +19,8 @@ const skillsObject = {
             title: "Javascript",
             image: JSimage,
         },
+    ],
+    skillsArrayTwo: [
         {
             title: "Node",
             image: Nodeimage,
@@ -31,8 +33,8 @@ const skillsObject = {
             title: "Other",
             image: Otherimage,
         },
-
     ]
+
 }
 
 export default skillsObject
