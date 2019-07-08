@@ -28,27 +28,16 @@ class Skills extends Component {
           <Col></Col>
         </Row>
         <Row>
-
           <Col >
-         
             {skillsObj[0].map(properties => (
-                
-            
-              <img src={properties.image} className="SkillsCol" alt="Skills" />
-                
-                
+              <img src={properties.image} className="SkillsCol" alt="Skills" />    
             ))}
-            
           </Col>
-
         </Row>
         <Row>
           <Col>
-            {skillsObj[1].map(properties => (
-              <span>
-
+            {skillsObj[1].map(properties => (  
                 <img src={properties.image} className="SkillsCol" alt="Skills"  />
-              </span>
             ))}
           </Col>
         </Row>
