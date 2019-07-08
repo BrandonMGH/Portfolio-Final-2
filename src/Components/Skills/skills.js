@@ -30,22 +30,22 @@ class Skills extends Component {
         <Row>
 
           <Col>
-            <div className=".SkillsCol">
+
             {skillsObj[0].map(properties => (
               <span>
-                <img src={properties.image} alt="Skills" width="300px" />
+                <img src={properties.image} className="SkillsCol" alt="Skills" />
               </span>
             ))}
-            </div>
+
           </Col>
-         
+
         </Row>
         <Row>
           <Col>
             {skillsObj[1].map(properties => (
-              <span className="SkillsCol">
+              <span>
 
-                <img src={properties.image} alt="Skills" width="300px" />
+                <img src={properties.image} className="SkillsCol" alt="Skills"  />
               </span>
             ))}
           </Col>
