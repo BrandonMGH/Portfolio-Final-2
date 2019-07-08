@@ -29,14 +29,16 @@ class Skills extends Component {
         </Row>
         <Row>
 
-          <Col>
-
+          <Col >
+         
             {skillsObj[0].map(properties => (
-              <span>
-                <img src={properties.image} className="SkillsCol" alt="Skills" />
-              </span>
+                
+            
+              <img src={properties.image} className="SkillsCol" alt="Skills" />
+                
+                
             ))}
-
+            
           </Col>
 
         </Row>
