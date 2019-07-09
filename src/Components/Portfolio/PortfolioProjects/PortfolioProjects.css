@@ -9,27 +9,23 @@
 
 .CarouselImg {
     justify-content: center;
-    height: 240px; 
+    height: 215px; 
     width: 100% ;
 }
 
-.Carousel, .box {
+ .box {
     background: black;
-    width: 20%;
     margin: 0 auto; 
     padding: 5px;
     margin-bottom: 50px; 
-    height: 250px;  
+    height: 225px;  
+    width: 225px; 
     justify-content: center;
     left: 8%;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-top: 50px; 
    
 }
 
-.box {
-    margin-top: 50px; 
-}
 
 
 /* 
@@ -78,17 +74,20 @@ li {
 .box .text{
     position: absolute;
     /* z-index: 999; */
-    margin: 0 auto;
     left: 0;
     right: 0;
     top: 30%; /* Adjust this value to move the positioned div up and down */
     text-align: center;
-    width: 80%; /* Set the width of the positioned div */
+     /* Set the width of the positioned div */
     color: black; 
     background: white;
     border-style: solid;
     border-color: black;
     opacity: .5; 
+    padding: 10px; 
+    margin-left: 25px;
+    margin-right: 25px;
+    
 }
 
 .box .text:hover{

@@ -23,9 +23,7 @@ class Skills extends Component {
     return (<span>
       <Container >
         <Row>
-          <Col></Col>
           <Col><h1 className="SkillsTitle">-SKILLS-</h1></Col>
-          <Col></Col>
         </Row>
         <Row>
           <Col >
