@@ -27,18 +27,24 @@ class Node extends Component {
          
     
         <h3 className="projBorder">NODE PROJECTS</h3> 
+        <Row>
+          <Col>
           {nodeProj.map(properties => (
-            <div>
-              <Col xs={12} md={4} className="ProjectCol">
-                <a href={properties.portfolioLink}><img src={properties.picture} className="imgBorder hover" width="250" height="200" /></a>
-                  <h4 className="text">{properties.paragraph}</h4>
-                  <a href={properties.github} class="githubLink">Github Link</a>
-              </Col>
-            </div>
+            <span>
+              
+                <a href={properties.portfolioLink}>
+                  <span>
+                  <img src={properties.picture} className="ProjectCol imgBorder hover" />
+                  </span>
+                  </a>
+                  {/* <h4 className="text">{properties.paragraph}</h4>
+                  <a href={properties.github} class="githubLink">Github Link</a> */}
+              
+            </span>
           ))}
 
-    
-
+          </Col>
+        </Row>
         </LightSpeed>
       
       

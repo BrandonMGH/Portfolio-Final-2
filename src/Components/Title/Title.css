@@ -1,14 +1,12 @@
 .title {
     
     height: 1000px; 
-    width: 100vw; 
     color:black;
     text-align: center; 
     font-size: 25px;
     background-position: center;
     background-size: cover;
     background-image: url('./Images/codingbackground.jpg');
-    overflow: hidden;  
     padding-bottom:100px;
 
 }
