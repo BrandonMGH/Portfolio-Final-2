@@ -44,8 +44,8 @@ class PortfolioProjects extends Component {
         <Row>
           <Col>
             <h1 className="portfolioProjectTitle" align="middle">-PORTFOLIO-</h1>
-            <Row>
-              <Col>
+            <Row >
+              <Col >
                 <div onClick={this.handleButtonClickOne} className="box">
                   <img className="CarouselImg" src={got2} align="middle"></img>
                   <div className="text">

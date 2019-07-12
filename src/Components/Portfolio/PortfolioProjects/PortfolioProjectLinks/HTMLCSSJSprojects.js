@@ -48,7 +48,7 @@ class HTMLCSSJS extends Component {
           <Col>
             {javascriptProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubOne}>GitHub</a>
+                <a className="test ProjectCol2" href={properties.githubOne}><Button variant="dark">Github Link</Button></a>
               </span>
             ))}
           </Col>
@@ -70,7 +70,7 @@ class HTMLCSSJS extends Component {
           <Col>
             {javascriptProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub Link</a>
+                <a className="test ProjectCol2" href={properties.githubTwo}><Button variant="dark">Github Link</Button></a>
               </span>
             ))}
           </Col>

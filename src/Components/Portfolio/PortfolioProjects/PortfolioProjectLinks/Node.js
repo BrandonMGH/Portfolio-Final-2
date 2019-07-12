@@ -3,6 +3,7 @@ import LightSpeed from 'react-reveal/LightSpeed';
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
 import './PortfolioProjectlinks.css'
 import ProjectObject from './PortfolioProjectlinkobject'
 
@@ -44,7 +45,7 @@ class Node extends Component {
           <Col>
             {nodeProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubOne}>GitHub Link</a>
+                <a className="test ProjectCol2" href={properties.githubOne}><Button variant="dark">Github Link</Button></a>
               </span>
             ))}
           </Col>
@@ -69,7 +70,7 @@ class Node extends Component {
           <Col>
             {nodeProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub Link</a>
+                <a className="test ProjectCol2" href={properties.githubTwo}><Button variant="dark">Github Link</Button></a>
               </span>
             ))}
           </Col>
