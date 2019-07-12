@@ -32,7 +32,6 @@ class All extends Component {
     return (
 
       <LightSpeed left>
-
         <h3 className="projBorder">FAVORITE PROJECTS</h3>
         <Row>
           <Col>
@@ -40,11 +39,7 @@ class All extends Component {
               <span>
                 <a href={properties.portfolioLinkOne}>
                   <img src={properties.pictureOne} className="ProjectCol imgBorder hover" /></a>
-                {/* <span className="absolute">
-                  <h4 className="text" >{properties.paragraph}</h4>
-                  <a href={properties.github} className="githubLink">Github Link
-                  </a>
-                </span> */}
+              
               </span>
               
             ))}
@@ -65,13 +60,7 @@ class All extends Component {
               <span>
                 <a href={properties.portfolioLinkTwo}>
                   <img src={properties.pictureTwo} className="ProjectCol imgBorder hover" /></a>
-                {/* <span className="absolute">
-                  <h4 className="text" >{properties.paragraph}</h4>
-                  <a href={properties.github} className="githubLink">Github Link
-                  </a>
-                </span> */}
-              </span>
-              
+              </span>    
             ))}
           </Col>
         </Row>
@@ -84,7 +73,6 @@ class All extends Component {
             ))}
           </Col>
         </Row>
-
       </LightSpeed>
 
 

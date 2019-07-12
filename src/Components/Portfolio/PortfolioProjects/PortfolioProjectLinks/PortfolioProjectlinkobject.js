@@ -19,67 +19,50 @@ import photographer from './Images/photographer.jpg'
 const ProjectObject = {
     javascriptProj: [
         {
-            id: "01",
-            index: 0,
-            picture: PsyButImg,
-            paragraph: "Psychic Game",
-            portfolioLink: "https://brandonmgh.github.io/Psychic-Game/",
-            github: "https://github.com/BrandonMGH/Psychic-Game"
+           
+            pictureOne: PsyButImg,
+            pictureTwo: DarthVader,
+            paragraphOne: "Psychic Game",
+            paragraphTwo: "Giftastic",
+            portfolioLinkOne: "https://brandonmgh.github.io/Psychic-Game/",
+            portfolioLinkTwo: "https://brandonmgh.github.io/GifTastic/",
+            githubOne: "https://github.com/BrandonMGH/Psychic-Game",
+            githubTwo: "https://github.com/BrandonMGH/GifTastic"
         },
         {
-            id: "02",
-            index: 1,
-            picture: Link,
-            paragraph: "Crystal Clicker Game",
-            portfolioLink: "https://brandonmgh.github.io/unit-4-game/",
-            github: "https://github.com/BrandonMGH/unit-4-game"
+           
+            pictureOne: Link,
+            pictureTwo: train,
+            paragraphOne: "Crystal Clicker Game",
+            paragraphTwo: "Train Scheduler",
+            portfolioLinkOne: "https://brandonmgh.github.io/unit-4-game/",
+            portfolioLinkTwo: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
+            githubOne: "https://github.com/BrandonMGH/unit-4-game",
+            githubTwo: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
         },
         {
-            id: "03",
-            index: 2,
-            picture: MontyPythonHolyGrail,
-            paragraph: "Trivia Game",
-            portfolioLink: "https://brandonmgh.github.io/TriviaGame/",
-            github: "https://github.com/BrandonMGH/TriviaGame"
+          
+            pictureOne: MontyPythonHolyGrail,
+            pictureTwo: GameofThronesWallpaper,
+            paragraphOne: "Trivia Game",
+            paragraphTwo: "Choose your GOT House",
+            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
+            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
+            githubOne: "https://github.com/BrandonMGH/TriviaGame",
+            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
         },
-        {
-            id: "04",
-            index: 3,
-            picture: DarthVader,
-            paragraph: "Giftastic",
-            portfolioLink: "https://brandonmgh.github.io/GifTastic/",
-            github: "https://github.com/BrandonMGH/GifTastic"
-        },
-        {
-            id: "05",
-            index: 4,
-            picture: train,
-            paragraph: "Train Scheduler",
-            portfolioLink: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
-            github: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
-        },
-        {
-            id: "06",
-            index: 5,
-            picture: GameofThronesWallpaper,
-            paragraph: "Choose your GOT House",
-            portfolioLink: "https://santo092.github.io/Project-1/",
-            github: "https://github.com/santo092/game-of-thrones-quiz"
-        }
     ],
 
     NodeProj: [
         {
-            id: "01",
-            index: 0,
+          
             picture: botimage2,
             paragraph: "Liri-bot",
             portfolioLink: "https://github.com/BrandonMGH/liri-node-ap",
             github: "https://github.com/BrandonMGH/liri-node-ap"
         },
         {
-            id: "02",
-            index: 1,
+          
             picture: wordguesser,
             paragraph: "Constructor Word Guesser",
             portfolioLink: "https://github.com/BrandonMGH/Constructor-Word-Guess",
@@ -87,32 +70,28 @@ const ProjectObject = {
 
         },
         {
-            id: "03",
-            index: 2,
+           
             picture: OnlineShoppingIcon,
             paragraph: "Bamazon SQL Storefront",
             portfolioLink: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
             github: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-"
         },
         {
-            id: "04",
-            index: 3,
+         
             picture: bestfriends,
             paragraph: "Friend-Finder",
             portfolioLink: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
             github: "https://github.com/BrandonMGH/Friend-Finder"
         },
         {
-            id: "05",
-            index: 4,
+          
             picture: hamburger,
             paragraph: "WANT-A-BURGER?!",
             portfolioLink: "https://want-a-burger.herokuapp.com/",
             github: "https://github.com/BrandonMGH/Burger"
         },
         {
-            id: "06",
-            index: 5,
+          
             picture: codespot,
             paragraph: "CodeSpot",
             portfolioLink: "https://codespot.herokuapp.com/",
@@ -125,24 +104,21 @@ const ProjectObject = {
 
     reactProj: [
         {
-            id: "01",
-            index: 0,
+            
             picture: newspapers,
             paragraph: "NewsScraper",
             portfolioLink: "https://quillette-app-scrap.herokuapp.com/",
             github: "https://github.com/BrandonMGH/NewsScraper"
         },
         {
-            id: "02",
-            index: 1,
+            
             picture: spongebob,
             paragraph: "Clicky-Game",
             portfolioLink: "https://clicky-game-reactjs-app.herokuapp.com/",
             github: "https://github.com/BrandonMGH/Clicky-Game"
         },
         {
-            id: "03",
-            index: 2,
+         
             picture: photographer,
             paragraph: "SparkItechs",
             portfolioLink: "https://spark-i-techs.herokuapp.com/",
@@ -150,6 +126,7 @@ const ProjectObject = {
         },
 
     ],
+    
     TopProj: [
         {
             pictureOne: newspapers,

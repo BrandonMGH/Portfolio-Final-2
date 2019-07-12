@@ -37,20 +37,45 @@ class HTMLCSSJS extends Component {
           <Col>
             {javascriptProj.map(properties => (
               <span>
-                <a href={properties.portfolioLink}>
+                <a href={properties.portfolioLinkOne}>
                   <span>
-                    <img src={properties.picture} className="ProjectCol imgBorder hover" />
-
-                    {/* <h4 className="text relative ProjectCol" >{properties.paragraph}</h4>
-                    <a href={properties.github} class="text relative ProjectCol">Github Link</a> */}
-
+                    <img src={properties.pictureOne} className="ProjectCol imgBorder hover" />
                   </span>
-
                 </a>
+              </span>
+            ))}
+          </Col>
 
+        </Row>
+        <Row>
+          <Col>
+            {javascriptProj.map(properties => (
+              <span>
+                <a className="test ProjectCol2" href={properties.githubOne}>GitHub</a>
+              </span>
+            ))}
+          </Col>
 
+        </Row>
+        <Row>
+          <Col>
+            {javascriptProj.map(properties => (
+              <span>
+                <a href={properties.portfolioLinkTwo}>
+                  <span>
+                    <img src={properties.pictureTwo} className="ProjectCol imgBorder hover" />
+                  </span>
+                </a>
+              </span>
+            ))}
+          </Col>
 
-
+        </Row>
+        <Row>
+          <Col>
+            {javascriptProj.map(properties => (
+              <span>
+                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub</a>
               </span>
             ))}
           </Col>
