@@ -18,6 +18,8 @@
 }
 
 .AstroBearLogo {
+    position: relative; 
+    top: 30%;
     height: 250px;
     width: 250px; 
 }

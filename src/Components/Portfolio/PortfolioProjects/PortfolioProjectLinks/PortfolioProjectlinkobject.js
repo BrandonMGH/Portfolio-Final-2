@@ -14,6 +14,8 @@ import newspapers from './Images/newspapers.jpg'
 import spongebob from './Images/spongebob.jpg'
 import photographer from './Images/photographer.jpg'
 
+
+
 const ProjectObject = {
     javascriptProj: [
         {
@@ -150,41 +152,36 @@ const ProjectObject = {
     ],
     TopProj: [
         {
-            picture: newspapers,
-            paragraph: "NewsScraper",
-            portfolioLink: "https://quillette-app-scrap.herokuapp.com/",
-            github: "https://github.com/BrandonMGH/NewsScraper"
+            pictureOne: newspapers,
+            pictureTwo: codespot,
+            paragraphOne: "NewsScraper",
+            paragraphTwo: "CodeSpot",
+            portfolioLinkOne: "https://quillette-app-scrap.herokuapp.com/",
+            portfolioLinkTwo: "https://codespot.herokuapp.com/",
+            githubOne: "https://github.com/BrandonMGH/NewsScraper",
+            githubTwo: "https://github.com/BrandonMGH/Project2"
         },
         {
-            picture: spongebob,
-            paragraph: "Clicky-game",
-            portfolioLink: "https://clicky-game-reactjs-app.herokuapp.com/",
-            github: "https://github.com/BrandonMGH/Clicky-Game"
+            pictureOne: spongebob,
+            pictureTwo: bestfriends, 
+            paragraphOne: "Clicky-game",
+            paragraphTwo: "Friend-Finder",
+            portfolioLinkOne: "https://clicky-game-reactjs-app.herokuapp.com/",
+            portfolioLinkTwo: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
+            githubOne: "https://github.com/BrandonMGH/Clicky-Game",
+            githubTwo: "https://github.com/BrandonMGH/Friend-Finder"
         },
         {
-            picture: photographer,
-            paragraph: "SparkItechs",
-            portfolioLink: "https://spark-i-techs.herokuapp.com/",
-            github: "https://github.com/avlegend/Project3"
+            pictureOne: photographer,
+            pictureTwo: train, 
+            paragraphOne: "SparkItechs",
+            paragraphTwo: "Train Scheduler",
+            portfolioLinkOne: "https://spark-i-techs.herokuapp.com/",
+            portfolioLinkTwo: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
+            githubOne: "https://github.com/avlegend/Project3",
+            githubTwo: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
         },
-        {
-            picture: codespot,
-            paragraph: "CodeSpot",
-            portfolioLink: "https://codespot.herokuapp.com/",
-            github: "https://github.com/BrandonMGH/Project2"
-        },
-        {
-            picture: bestfriends,
-            paragraph: "Friend-Finder",
-            portfolioLink: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
-            github: "https://github.com/BrandonMGH/Friend-Finder"
-        },
-        {
-            picture: train,
-            paragraph: "Train Scheduler",
-            portfolioLink: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
-            github: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
-        }
+       
     ]
 
 }

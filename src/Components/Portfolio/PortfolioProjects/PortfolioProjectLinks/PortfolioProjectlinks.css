@@ -1,14 +1,20 @@
 .ProjectCol {
     width: 33%; 
     text-align: center;
-    height: 33%;
+    height: 100%
 
 } 
 
-.relative{
-    position: relative; 
+.ProjectCol2 {
+    
+    width: 33%
 }
 
+.test {
+    display: inline-block;
+    color: black; 
+    text-align: center;  
+}
 
 .button {
      height: 500px; 
@@ -31,7 +37,8 @@
 }
 
 .githubLink{
-    color: black; 
+    color: black;
+    
 }
 
 .hover:hover{
