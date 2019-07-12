@@ -56,50 +56,38 @@ const ProjectObject = {
     NodeProj: [
         {
           
-            picture: botimage2,
-            paragraph: "Liri-bot",
-            portfolioLink: "https://github.com/BrandonMGH/liri-node-ap",
-            github: "https://github.com/BrandonMGH/liri-node-ap"
+            pictureOne: botimage2,
+            pictureTwo: bestfriends, 
+            paragraphOne: "Liri-bot",
+            paragraphTwo: "Friend-Finder",
+            portfolioLinkOne: "https://github.com/BrandonMGH/liri-node-ap",
+            portfolioLinkTwo: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
+            githubOne: "https://github.com/BrandonMGH/liri-node-ap",
+            githubTwo: "https://github.com/BrandonMGH/Friend-Finder"
         },
         {
           
-            picture: wordguesser,
-            paragraph: "Constructor Word Guesser",
-            portfolioLink: "https://github.com/BrandonMGH/Constructor-Word-Guess",
-            github: "https://github.com/BrandonMGH/Constructor-Word-Guess"
+            pictureOne: wordguesser,
+            pictureTwo: hamburger,
+            paragraphOne: "Constructor Word Guesser",
+            paragraphTwo: "WANT-A-BURGER?!",
+            portfolioLinkOne: "https://github.com/BrandonMGH/Constructor-Word-Guess",
+            portfolioLinkTwo: "https://want-a-burger.herokuapp.com/",
+            githubOne: "https://github.com/BrandonMGH/Constructor-Word-Guess",
+            githubTwo: "https://github.com/BrandonMGH/Burger"
 
         },
         {
            
-            picture: OnlineShoppingIcon,
-            paragraph: "Bamazon SQL Storefront",
-            portfolioLink: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
-            github: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-"
+            pictureOne: OnlineShoppingIcon,
+            pictureTwo: codespot,
+            paragraphOne: "Bamazon SQL Storefront",
+            paragraphTwo: "CodeSpot",
+            portfolioLinkOne: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
+            portfolioTwo: "https://codespot.herokuapp.com/",
+            githubOne: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
+            githubTwo: "https://github.com/BrandonMGH/Project2"
         },
-        {
-         
-            picture: bestfriends,
-            paragraph: "Friend-Finder",
-            portfolioLink: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
-            github: "https://github.com/BrandonMGH/Friend-Finder"
-        },
-        {
-          
-            picture: hamburger,
-            paragraph: "WANT-A-BURGER?!",
-            portfolioLink: "https://want-a-burger.herokuapp.com/",
-            github: "https://github.com/BrandonMGH/Burger"
-        },
-        {
-          
-            picture: codespot,
-            paragraph: "CodeSpot",
-            portfolioLink: "https://codespot.herokuapp.com/",
-            github: "https://github.com/BrandonMGH/Project2"
-        },
-
-
-
     ],
 
     reactProj: [
@@ -126,7 +114,7 @@ const ProjectObject = {
         },
 
     ],
-    
+
     TopProj: [
         {
             pictureOne: newspapers,

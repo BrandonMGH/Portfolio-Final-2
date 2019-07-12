@@ -31,16 +31,13 @@ class HTMLCSSJS extends Component {
     return (
 
       <LightSpeed left>
-
         <h3 className="projBorder">HTML/CSS/JAVASCRIPT PROJECTS</h3>
         <Row>
           <Col>
             {javascriptProj.map(properties => (
               <span>
                 <a href={properties.portfolioLinkOne}>
-                  <span>
                     <img src={properties.pictureOne} className="ProjectCol imgBorder hover" />
-                  </span>
                 </a>
               </span>
             ))}
@@ -62,9 +59,7 @@ class HTMLCSSJS extends Component {
             {javascriptProj.map(properties => (
               <span>
                 <a href={properties.portfolioLinkTwo}>
-                  <span>
                     <img src={properties.pictureTwo} className="ProjectCol imgBorder hover" />
-                  </span>
                 </a>
               </span>
             ))}
@@ -75,7 +70,7 @@ class HTMLCSSJS extends Component {
           <Col>
             {javascriptProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub</a>
+                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub Link</a>
               </span>
             ))}
           </Col>

@@ -49,7 +49,7 @@ class All extends Component {
           <Col>
             {TopProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubOne}>GitHub</a>
+                <a className="test ProjectCol2" href={properties.githubOne}>GitHub Link</a>
               </span>
             ))}
           </Col>
@@ -68,7 +68,7 @@ class All extends Component {
           <Col>
             {TopProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub</a>
+                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub Link</a>
               </span>
             ))}
           </Col>

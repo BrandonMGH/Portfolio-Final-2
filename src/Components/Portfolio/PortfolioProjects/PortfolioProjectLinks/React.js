@@ -36,16 +36,21 @@ class ReactProj extends Component {
             {reactProj.map(properties => (
               <span>
                 <a href={properties.portfolioLink}>
-                  <span>
                     <img src={properties.picture} className="ProjectCol imgBorder hover" />
-                  </span>
                 </a>
-                {/* <p className="text">{properties.paragraph}</p>
-                    <a href={properties.github} class="githubLink">Github Link</a> */}
-
               </span>
             ))}
           </Col>
+        </Row>
+        <Row>
+          <Col>
+            {reactProj.map(properties => (
+              <span>
+                <a className="test ProjectCol2" href={properties.github}>GitHub Link</a>
+              </span>
+            ))}
+          </Col>
+
         </Row>
       </LightSpeed>
 

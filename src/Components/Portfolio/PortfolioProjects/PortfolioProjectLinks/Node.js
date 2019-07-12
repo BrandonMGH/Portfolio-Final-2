@@ -29,9 +29,9 @@ class Node extends Component {
           <Col>
           {nodeProj.map(properties => (
             <span>
-                <a href={properties.portfolioLink}>
+                <a href={properties.portfolioLinkOne}>
                   <span>
-                  <img src={properties.picture} className="ProjectCol imgBorder hover" />
+                  <img src={properties.pictureOne} className="ProjectCol imgBorder hover" />
                   </span>
                   </a>
               
@@ -44,7 +44,7 @@ class Node extends Component {
           <Col>
             {nodeProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub</a>
+                <a className="test ProjectCol2" href={properties.githubOne}>GitHub Link</a>
               </span>
             ))}
           </Col>
@@ -54,9 +54,9 @@ class Node extends Component {
           <Col>
           {nodeProj.map(properties => (
             <span>
-                <a href={properties.portfolioLink}>
+                <a href={properties.portfolioLinkTwo}>
                   <span>
-                  <img src={properties.picture} className="ProjectCol imgBorder hover" />
+                  <img src={properties.pictureTwo} className="ProjectCol imgBorder hover" />
                   </span>
                   </a>
               
@@ -69,7 +69,7 @@ class Node extends Component {
           <Col>
             {nodeProj.map(properties => (
               <span>
-                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub</a>
+                <a className="test ProjectCol2" href={properties.githubTwo}>GitHub Link</a>
               </span>
             ))}
           </Col>
