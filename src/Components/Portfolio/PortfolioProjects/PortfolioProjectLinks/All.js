@@ -16,22 +16,29 @@ class All extends Component {
 
   state = {
     TopProj: ProjectObject.TopProj,
-
-    shownProject: null
+    shownProject: null,
+    hoverImage: false, 
   }
 
-
+handleOnHover = () =>{
+  this.setState({hoverImage:true})
+}
+handleNoHover = () =>{
+  this.setState({hoverImage:false})
+}
 
 
 
   render() {
 
     const TopProj = this.state.TopProj
-
+    const hoverImage = this.state.hoverImage
+    console.log(this.state.hoverImage)
+    
 
 
     return (
-
+     
       <LightSpeed left>
         <h3 className="projBorder">FAVORITE PROJECTS</h3>
         <Row>
@@ -74,8 +81,19 @@ class All extends Component {
             ))}
           </Col>
         </Row>
-      </LightSpeed>
+        <Row>
+          <Col>
+            {TopProj.map(properties => (
+              <span>
+                <a href={properties.portfolioLinkTwo}>
+                  <img src={hoverImage ?  properties.pictureTwo : properties.pictureOne} onMouseOver={this.handleOnHover} onMouseOut={this.handleNoHover}  className="ProjectCol imgBorder hover" /></a>
+              </span>    
+            ))}
+          </Col>
+        </Row>
 
+      </LightSpeed>
+      
 
 
     );
