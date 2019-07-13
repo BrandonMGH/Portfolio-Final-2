@@ -53,7 +53,6 @@ class Main extends Component {
     <div className={scrollIntoViewInfo.Title} title="" title><Title /></div>
     <div className={scrollIntoViewInfo.About}><AboutMe /></div>
     <div className={scrollIntoViewInfo.Skills}><Skills /></div>
-    <div><Bufferzone /></div>
     <div className={scrollIntoViewInfo.Portfolio}><Portfolio /></div>
     <div className={scrollIntoViewInfo.Contact}><ContactMe /></div>
     <div><Footer /></div>
