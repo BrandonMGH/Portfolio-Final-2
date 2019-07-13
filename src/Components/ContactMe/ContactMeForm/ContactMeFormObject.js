@@ -20,7 +20,7 @@ const contactFormObject = {
     {
         image: GitHubMark,
         link: "https://github.com/BrandonMGH",
-        text: "GitHub",
+        text: "Github",
 
     },
 ]

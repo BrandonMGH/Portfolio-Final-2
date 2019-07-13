@@ -24,6 +24,15 @@
 }
 
 .contactMeIcon{
-    height: 250px;
-    width: 250px;
+    width: 66%;
+    height: 66%; 
+    
+}
+
+.textContainer {
+    width: 33%;
+    margin: 0 auto; 
+    float: left; 
+    text-align: center;
+    color: white;
 }
