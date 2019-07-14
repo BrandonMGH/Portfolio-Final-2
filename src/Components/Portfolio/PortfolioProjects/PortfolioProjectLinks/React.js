@@ -16,16 +16,24 @@ class ReactProj extends Component {
 
   state = {
     reactProj: ProjectObject.reactProj,
+    hoverImageOne: false,
   }
 
 
+  handleOnHoverOne = () =>{
+    this.setState({hoverImageOne:true})
+}
 
+handleNoHoverOne = () =>{
+  this.setState({hoverImageOne:false})
+}
 
 
   render() {
 
 
     const reactProj = this.state.reactProj
+    const hoverImageOne = this.state.hoverImageOne
 
     return (
 
@@ -37,7 +45,7 @@ class ReactProj extends Component {
             {reactProj.map(properties => (
               <span>
                 <a href={properties.portfolioLink}>
-                    <img src={properties.picture} className="ProjectCol imgBorder hover" />
+                <img src={hoverImageOne ?  properties.pictureTextOne : properties.pictureOne} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
                 </a>
               </span>
             ))}

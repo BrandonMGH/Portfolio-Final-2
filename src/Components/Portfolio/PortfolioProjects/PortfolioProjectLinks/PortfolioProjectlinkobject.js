@@ -99,21 +99,24 @@ const ProjectObject = {
     reactProj: [
         {
             
-            picture: newspapers,
+            pictureOne: newspapers,
+            pictureTextOne: newspapersTextImg,
             paragraph: "NewsScraper",
             portfolioLink: "https://quillette-app-scrap.herokuapp.com/",
             github: "https://github.com/BrandonMGH/NewsScraper"
         },
         {
             
-            picture: spongebob,
+            pictureOne: spongebob,
+            pictureTextOne: clickyGameTextImage, 
             paragraph: "Clicky-Game",
             portfolioLink: "https://clicky-game-reactjs-app.herokuapp.com/",
             github: "https://github.com/BrandonMGH/Clicky-Game"
         },
         {
          
-            picture: photographer,
+            pictureOne: photographer,
+            pictureTextOne: sparkitechsTextImage, 
             paragraph: "SparkItechs",
             portfolioLink: "https://spark-i-techs.herokuapp.com/",
             github: "https://github.com/avlegend/Project3"
