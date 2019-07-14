@@ -16,6 +16,9 @@ import photographer from './Images/photographer.jpg'
 import newspapersTextImg from './Images/newspapersTextImg.png'
 import clickyGameTextImage from './Images/clickyGameTextImage.png'
 import sparkitechsTextImage from './Images/sparkitechsTextImage.png'
+import codespotTextImage from './Images/codespotTextImage.png'
+import friendfinderTextImage from './Images/friendfinderTextImage.png'
+import trainschedulerTextImage from './Images/trainschedulerTextImage.png'
 
 
 
@@ -123,7 +126,7 @@ const ProjectObject = {
             pictureOne: newspapers,
             pictureTextOne: newspapersTextImg,
             pictureTwo: codespot,
-            pictureTextTwo: newspapersTextImg,
+            pictureTextTwo: codespotTextImage,
             paragraphOne: "NewsScraper",
             paragraphTwo: "CodeSpot",
             portfolioLinkOne: "https://quillette-app-scrap.herokuapp.com/",
@@ -135,7 +138,7 @@ const ProjectObject = {
             pictureOne: spongebob,
             pictureTextOne: clickyGameTextImage, 
             pictureTwo: bestfriends, 
-            pictureTextTwo: newspapersTextImg,
+            pictureTextTwo: friendfinderTextImage,
             paragraphOne: "Clicky-game",
             paragraphTwo: "Friend-Finder",
             portfolioLinkOne: "https://clicky-game-reactjs-app.herokuapp.com/",
@@ -147,7 +150,7 @@ const ProjectObject = {
             pictureOne: photographer,
             pictureTextOne: sparkitechsTextImage, 
             pictureTwo: train, 
-            pictureTextTwo: newspapersTextImg,
+            pictureTextTwo: trainschedulerTextImage,
             paragraphOne: "SparkItechs",
             paragraphTwo: "Train Scheduler",
             portfolioLinkOne: "https://spark-i-techs.herokuapp.com/",
