@@ -13,6 +13,9 @@ import codespot from './Images/codespot.PNG'
 import newspapers from './Images/newspapers.jpg'
 import spongebob from './Images/spongebob.jpg'
 import photographer from './Images/photographer.jpg'
+import newspapersTextImg from './Images/newspapersTextImg.png'
+import clickyGameTextImage from './Images/clickyGameTextImage.png'
+import sparkitechsTextImage from './Images/sparkitechsTextImage.png'
 
 
 
@@ -118,7 +121,9 @@ const ProjectObject = {
     TopProj: [
         {
             pictureOne: newspapers,
+            pictureTextOne: newspapersTextImg,
             pictureTwo: codespot,
+            pictureTextTwo: newspapersTextImg,
             paragraphOne: "NewsScraper",
             paragraphTwo: "CodeSpot",
             portfolioLinkOne: "https://quillette-app-scrap.herokuapp.com/",
@@ -128,7 +133,9 @@ const ProjectObject = {
         },
         {
             pictureOne: spongebob,
+            pictureTextOne: clickyGameTextImage, 
             pictureTwo: bestfriends, 
+            pictureTextTwo: newspapersTextImg,
             paragraphOne: "Clicky-game",
             paragraphTwo: "Friend-Finder",
             portfolioLinkOne: "https://clicky-game-reactjs-app.herokuapp.com/",
@@ -138,7 +145,9 @@ const ProjectObject = {
         },
         {
             pictureOne: photographer,
+            pictureTextOne: sparkitechsTextImage, 
             pictureTwo: train, 
+            pictureTextTwo: newspapersTextImg,
             paragraphOne: "SparkItechs",
             paragraphTwo: "Train Scheduler",
             portfolioLinkOne: "https://spark-i-techs.herokuapp.com/",

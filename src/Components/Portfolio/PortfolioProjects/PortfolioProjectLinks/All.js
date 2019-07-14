@@ -17,14 +17,24 @@ class All extends Component {
   state = {
     TopProj: ProjectObject.TopProj,
     shownProject: null,
-    hoverImage: false, 
+    hoverImageOne: false,
+    hoverImageTwo: false,  
   }
 
-handleOnHover = () =>{
-  this.setState({hoverImage:true})
+handleOnHoverOne = () =>{
+    this.setState({hoverImageOne:true})
 }
-handleNoHover = () =>{
-  this.setState({hoverImage:false})
+
+handleOnHoverTwo = () =>{
+  this.setState({hoverImageTwo:true})
+}
+
+handleNoHoverOne = () =>{
+  this.setState({hoverImageOne:false})
+}
+
+handleNoHoverTwo = () =>{
+  this.setState({hoverImageTwo:false})
 }
 
 
@@ -32,7 +42,8 @@ handleNoHover = () =>{
   render() {
 
     const TopProj = this.state.TopProj
-    const hoverImage = this.state.hoverImage
+    const hoverImageOne = this.state.hoverImageOne
+    const hoverImageTwo = this.state.hoverImageTwo
     console.log(this.state.hoverImage)
     
 
@@ -46,7 +57,7 @@ handleNoHover = () =>{
             {TopProj.map(properties => (
               <span>
                 <a href={properties.portfolioLinkOne}>
-                  <img src={properties.pictureOne} className="ProjectCol imgBorder hover" /></a>
+                <img src={hoverImageOne ?  properties.pictureTextOne : properties.pictureOne} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" /></a>
               
               </span>
               
@@ -67,7 +78,7 @@ handleNoHover = () =>{
             {TopProj.map(properties => (
               <span>
                 <a href={properties.portfolioLinkTwo}>
-                  <img src={properties.pictureTwo} className="ProjectCol imgBorder hover" /></a>
+                <img src={hoverImageTwo ?  properties.pictureTextTwo : properties.pictureTwo} onMouseOver={this.handleOnHoverTwo} onMouseOut={this.handleNoHoverTwo}  className="ProjectCol imgBorder hover" /></a>
               </span>    
             ))}
           </Col>
@@ -81,17 +92,6 @@ handleNoHover = () =>{
             ))}
           </Col>
         </Row>
-        <Row>
-          <Col>
-            {TopProj.map(properties => (
-              <span>
-                <a href={properties.portfolioLinkTwo}>
-                  <img src={hoverImage ?  properties.pictureTwo : properties.pictureOne} onMouseOver={this.handleOnHover} onMouseOut={this.handleNoHover}  className="ProjectCol imgBorder hover" /></a>
-              </span>    
-            ))}
-          </Col>
-        </Row>
-
       </LightSpeed>
       
 
