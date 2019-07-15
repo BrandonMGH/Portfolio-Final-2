@@ -19,6 +19,15 @@ import sparkitechsTextImage from './Images/sparkitechsTextImage.png'
 import codespotTextImage from './Images/codespotTextImage.png'
 import friendfinderTextImage from './Images/friendfinderTextImage.png'
 import trainschedulerTextImage from './Images/trainschedulerTextImage.png'
+import liribotTextImage from './Images/liribotTextImage.png'
+import wordguesserTextImage from './Images/wordguesserTextImage.png'
+import BamazonTextImage from './Images/BamazonTextImage.png'
+import wantaburgerTextImage from './Images/wantaburgerTextImage.png'
+import PsychicGameTextImage from './Images/PsychicGameTextImage.png'
+import giftasticTextImage from './Images/giftasticTextImage.png'
+import crystalcollectorTextImage from './Images/crystalcollectorTextImage.png'
+import triviagameTextImage from './Images/triviagameTextImage.png'
+import gotquizTextImage from './Images/gotquizTextImage.png'
 
 
 
@@ -27,7 +36,9 @@ const ProjectObject = {
         {
            
             pictureOne: PsyButImg,
+            pictureTextOne: PsychicGameTextImage,
             pictureTwo: DarthVader,
+            pictureTextTwo: giftasticTextImage,
             paragraphOne: "Psychic Game",
             paragraphTwo: "Giftastic",
             portfolioLinkOne: "https://brandonmgh.github.io/Psychic-Game/",
@@ -38,7 +49,9 @@ const ProjectObject = {
         {
            
             pictureOne: Link,
+            pictureTextOne: crystalcollectorTextImage,
             pictureTwo: train,
+            pictureTextTwo: trainschedulerTextImage,
             paragraphOne: "Crystal Clicker Game",
             paragraphTwo: "Train Scheduler",
             portfolioLinkOne: "https://brandonmgh.github.io/unit-4-game/",
@@ -49,7 +62,9 @@ const ProjectObject = {
         {
           
             pictureOne: MontyPythonHolyGrail,
+            pictureTextOne: triviagameTextImage,
             pictureTwo: GameofThronesWallpaper,
+            pictureTextTwo: gotquizTextImage,
             paragraphOne: "Trivia Game",
             paragraphTwo: "Choose your GOT House",
             portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
@@ -63,7 +78,9 @@ const ProjectObject = {
         {
           
             pictureOne: botimage2,
+            pictureTextOne: liribotTextImage,
             pictureTwo: bestfriends, 
+            pictureTextTwo: friendfinderTextImage,
             paragraphOne: "Liri-bot",
             paragraphTwo: "Friend-Finder",
             portfolioLinkOne: "https://github.com/BrandonMGH/liri-node-ap",
@@ -74,7 +91,9 @@ const ProjectObject = {
         {
           
             pictureOne: wordguesser,
+            pictureTextOne: wordguesserTextImage,
             pictureTwo: hamburger,
+            pictureTextTwo: wantaburgerTextImage,
             paragraphOne: "Constructor Word Guesser",
             paragraphTwo: "WANT-A-BURGER?!",
             portfolioLinkOne: "https://github.com/BrandonMGH/Constructor-Word-Guess",
@@ -86,7 +105,9 @@ const ProjectObject = {
         {
            
             pictureOne: OnlineShoppingIcon,
+            pictureTextOne: BamazonTextImage,
             pictureTwo: codespot,
+            pictureTextTwo: codespotTextImage,
             paragraphOne: "Bamazon SQL Storefront",
             paragraphTwo: "CodeSpot",
             portfolioLinkOne: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",

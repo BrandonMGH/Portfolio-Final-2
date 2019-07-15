@@ -17,16 +17,33 @@ class HTMLCSSJS extends Component {
 
   state = {
     javascriptProj: ProjectObject.javascriptProj,
-
+    hoverImageOne: false,
+    hoverImageTwo: false, 
   }
 
+  handleOnHoverOne = () =>{
+    this.setState({hoverImageOne:true})
+}
 
+handleOnHoverTwo = () =>{
+  this.setState({hoverImageTwo:true})
+}
+
+handleNoHoverOne = () =>{
+  this.setState({hoverImageOne:false})
+}
+
+handleNoHoverTwo = () =>{
+  this.setState({hoverImageTwo:false})
+}
 
 
 
   render() {
 
     const javascriptProj = this.state.javascriptProj
+    const hoverImageOne = this.state.hoverImageOne
+    const hoverImageTwo = this.state.hoverImageTwo
 
     return (
 
@@ -37,7 +54,7 @@ class HTMLCSSJS extends Component {
             {javascriptProj.map(properties => (
               <span>
                 <a href={properties.portfolioLinkOne}>
-                    <img src={properties.pictureOne} className="ProjectCol imgBorder hover" />
+                <img src={hoverImageOne ?  properties.pictureTextOne : properties.pictureOne} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
                 </a>
               </span>
             ))}
@@ -59,7 +76,7 @@ class HTMLCSSJS extends Component {
             {javascriptProj.map(properties => (
               <span>
                 <a href={properties.portfolioLinkTwo}>
-                    <img src={properties.pictureTwo} className="ProjectCol imgBorder hover" />
+                <img src={hoverImageTwo ?  properties.pictureTextTwo : properties.pictureTwo} onMouseOver={this.handleOnHoverTwo} onMouseOut={this.handleNoHoverTwo}  className="ProjectCol imgBorder hover" />
                 </a>
               </span>
             ))}

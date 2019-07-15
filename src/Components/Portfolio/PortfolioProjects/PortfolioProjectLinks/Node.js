@@ -16,11 +16,31 @@ class Node extends Component {
 
   state = {
     nodeProj: ProjectObject.NodeProj,
+    hoverImageOne: false,
+    hoverImageTwo: false,  
   }
+
+  handleOnHoverOne = () =>{
+    this.setState({hoverImageOne:true})
+}
+
+handleOnHoverTwo = () =>{
+  this.setState({hoverImageTwo:true})
+}
+
+handleNoHoverOne = () =>{
+  this.setState({hoverImageOne:false})
+}
+
+handleNoHoverTwo = () =>{
+  this.setState({hoverImageTwo:false})
+}
 
   render() {
  
     const nodeProj = this.state.nodeProj
+    const hoverImageOne = this.state.hoverImageOne
+    const hoverImageTwo = this.state.hoverImageTwo
      
     return (
      
@@ -32,7 +52,7 @@ class Node extends Component {
             <span>
                 <a href={properties.portfolioLinkOne}>
                   <span>
-                  <img src={properties.pictureOne} className="ProjectCol imgBorder hover" />
+                  <img src={hoverImageOne ?  properties.pictureTextOne : properties.pictureOne} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
                   </span>
                   </a>
               
@@ -57,7 +77,7 @@ class Node extends Component {
             <span>
                 <a href={properties.portfolioLinkTwo}>
                   <span>
-                  <img src={properties.pictureTwo} className="ProjectCol imgBorder hover" />
+                  <img src={hoverImageTwo ?  properties.pictureTextTwo : properties.pictureTwo} onMouseOver={this.handleOnHoverTwo} onMouseOut={this.handleNoHoverTwo}  className="ProjectCol imgBorder hover" />
                   </span>
                   </a>
               

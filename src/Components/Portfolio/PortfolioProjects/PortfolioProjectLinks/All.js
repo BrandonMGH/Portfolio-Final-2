@@ -44,7 +44,7 @@ handleNoHoverTwo = () =>{
     const TopProj = this.state.TopProj
     const hoverImageOne = this.state.hoverImageOne
     const hoverImageTwo = this.state.hoverImageTwo
-    console.log(this.state.hoverImage)
+    
     
 
 
