@@ -13,12 +13,6 @@
     width: 100% ;
 }
 
-@media (min-width: 700){
-    .test{
-        padding-right: 15px;
-        margin-right: 15px  
-    }
-}
 
  .box {
     background: black;
@@ -34,12 +28,6 @@
     display: inline-block; /* Make the width of box same as image */
  }
  
- @media (max-width: 650) {
-    .box{
-        padding-right: 15px; 
-    
-    }
-}
 
 
 .Black{
@@ -98,4 +86,15 @@ li {
 .box .text:hover{
     cursor: pointer;
     opacity: 1;
+}
+
+@media (max-width: 650) {
+    .test, .CarouselImg, .box {
+        padding-right: -15px;
+        padding-left: -15px;
+        
+       
+        height: 1000px;
+    
+    }
 }

@@ -45,7 +45,8 @@ class PortfolioProjects extends Component {
           <Col>
             <h1 className="portfolioProjectTitle" align="middle">-PORTFOLIO-</h1>
             <Row >
-              <Col >
+              <div className="test">
+              <Col>
                 <div onClick={this.handleButtonClickOne} className="box">
                   <img className="CarouselImg" src={got2} align="middle"></img>
                   <div className="text">
@@ -54,6 +55,7 @@ class PortfolioProjects extends Component {
                   </div>
                 </div>
               </Col>
+              </div>
               <Col>
                 <div onClick={this.handleButtonClickTwo} className="box">
                   <img className="CarouselImg" src={chatbox} align="middle"></img>
