@@ -14,6 +14,8 @@
 }
 
 
+
+
  .box {
     background: black;
     margin: 0 auto; 
@@ -88,13 +90,12 @@ li {
     opacity: 1;
 }
 
-@media (max-width: 650) {
-    .test, .CarouselImg, .box {
-        padding-right: -15px;
-        padding-left: -15px;
+@media (max-width: 525px) {
+    .mediaQ{
         
-       
-        height: 1000px;
+       margin-left: 50px;
+        
     
     }
 }
+
