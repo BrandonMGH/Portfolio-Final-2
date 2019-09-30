@@ -11,4 +11,3 @@ WebFont.load({
 
 
 ReactDOM.render(<Main />, document.getElementById('root'));
-
