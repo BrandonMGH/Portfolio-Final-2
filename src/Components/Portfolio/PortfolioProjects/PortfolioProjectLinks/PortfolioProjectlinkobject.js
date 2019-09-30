@@ -34,6 +34,13 @@ import gotquizTextImage from './Images/gotquizTextImage.png'
 const ProjectObject = {
     javascriptProj: [
         {
+            picture: PsyButImg,
+            pictureText: PsyButImg,
+            name: "Psychic Game",
+            portfolioLink: "https://brandonmgh.github.io/Psychic-Game/",
+            github: "https://github.com/BrandonMGH/Psychic-Game"
+        },
+        {
            
             pictureOne: PsyButImg,
             pictureTextOne: PsychicGameTextImage,
@@ -72,6 +79,46 @@ const ProjectObject = {
             githubOne: "https://github.com/BrandonMGH/TriviaGame",
             githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
         },
+        {
+          
+            pictureOne: MontyPythonHolyGrail,
+            pictureTextOne: triviagameTextImage,
+            pictureTwo: GameofThronesWallpaper,
+            pictureTextTwo: gotquizTextImage,
+            paragraphOne: "Trivia Game",
+            paragraphTwo: "Choose your GOT House",
+            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
+            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
+            githubOne: "https://github.com/BrandonMGH/TriviaGame",
+            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
+        },
+        {
+          
+            pictureOne: MontyPythonHolyGrail,
+            pictureTextOne: triviagameTextImage,
+            pictureTwo: GameofThronesWallpaper,
+            pictureTextTwo: gotquizTextImage,
+            paragraphOne: "Trivia Game",
+            paragraphTwo: "Choose your GOT House",
+            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
+            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
+            githubOne: "https://github.com/BrandonMGH/TriviaGame",
+            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
+        },
+        {
+          
+            pictureOne: MontyPythonHolyGrail,
+            pictureTextOne: triviagameTextImage,
+            pictureTwo: GameofThronesWallpaper,
+            pictureTextTwo: gotquizTextImage,
+            paragraphOne: "Trivia Game",
+            paragraphTwo: "Choose your GOT House",
+            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
+            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
+            githubOne: "https://github.com/BrandonMGH/TriviaGame",
+            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
+        },
+     
     ],
 
     NodeProj: [
