@@ -18,7 +18,7 @@ class HTMLCSSJS extends Component {
   state = {
     javascriptProj: ProjectObject.javascriptProj,
     hoverImageOne: false,
-    hoverImageTwo: false, 
+     
   }
 
   handleOnHoverOne = () =>{
@@ -43,18 +43,27 @@ handleNoHoverTwo = () =>{
 
     const javascriptProj = this.state.javascriptProj
     const hoverImageOne = this.state.hoverImageOne
-    const hoverImageTwo = this.state.hoverImageTwo
+
 
     return (
-
-      <section className="featured-rooms-center">
+      <LightSpeed left> 
+      <section className="portfolioProjects">
+      
         {javascriptProj.map(properties => (
-                <a href={properties.portfolioLink}>
-                <img src={hoverImageOne ?  properties.pictureText : properties.picture} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
-                </a>
+                <div>
+                <img className="portfolioPicHover" src={hoverImageOne ?  properties.pictureText : properties.picture} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
+                <h3>{properties.name}</h3>
+                <p>{properties.paragraph}</p>
+                <section>
+                  <a href={properties.portfolioLink}><button>Portfolio Link</button></a>
+                  <a href={properties.github}><button>GithubLink</button></a>
+                </section>
+                </div>
+            
+               
             ))}
       </section>
-
+      </LightSpeed>
       // <LightSpeed left>
       //   <h3 className="projBorder">HTML/CSS/JAVASCRIPT PROJECTS</h3>
       //   <Row>

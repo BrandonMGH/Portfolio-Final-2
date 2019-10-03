@@ -37,88 +37,50 @@ const ProjectObject = {
             picture: PsyButImg,
             pictureText: PsyButImg,
             name: "Psychic Game",
+            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://brandonmgh.github.io/Psychic-Game/",
             github: "https://github.com/BrandonMGH/Psychic-Game"
         },
         {
-           
-            pictureOne: PsyButImg,
-            pictureTextOne: PsychicGameTextImage,
-            pictureTwo: DarthVader,
-            pictureTextTwo: giftasticTextImage,
-            paragraphOne: "Psychic Game",
-            paragraphTwo: "Giftastic",
-            portfolioLinkOne: "https://brandonmgh.github.io/Psychic-Game/",
-            portfolioLinkTwo: "https://brandonmgh.github.io/GifTastic/",
-            githubOne: "https://github.com/BrandonMGH/Psychic-Game",
-            githubTwo: "https://github.com/BrandonMGH/GifTastic"
+            picture: DarthVader,
+            pictureText: DarthVader,
+            name: "Giftastic",
+            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://brandonmgh.github.io/GifTastic/",
+            github: "https://github.com/BrandonMGH/GifTastic"
         },
         {
-           
-            pictureOne: Link,
-            pictureTextOne: crystalcollectorTextImage,
-            pictureTwo: train,
-            pictureTextTwo: trainschedulerTextImage,
-            paragraphOne: "Crystal Clicker Game",
-            paragraphTwo: "Train Scheduler",
-            portfolioLinkOne: "https://brandonmgh.github.io/unit-4-game/",
-            portfolioLinkTwo: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
-            githubOne: "https://github.com/BrandonMGH/unit-4-game",
-            githubTwo: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
+            picture: Link,
+            pictureText: Link,
+            name: "Crystal Clicker Game",
+            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://brandonmgh.github.io/unit-4-game/",
+            github: "https://github.com/BrandonMGH/unit-4-game"
         },
         {
-          
-            pictureOne: MontyPythonHolyGrail,
-            pictureTextOne: triviagameTextImage,
-            pictureTwo: GameofThronesWallpaper,
-            pictureTextTwo: gotquizTextImage,
-            paragraphOne: "Trivia Game",
-            paragraphTwo: "Choose your GOT House",
-            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
-            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
-            githubOne: "https://github.com/BrandonMGH/TriviaGame",
-            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
+            picture: train,
+            pictureText: train,
+            name: "Train Scheduler",
+            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
+            github: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
         },
         {
-          
-            pictureOne: MontyPythonHolyGrail,
-            pictureTextOne: triviagameTextImage,
-            pictureTwo: GameofThronesWallpaper,
-            pictureTextTwo: gotquizTextImage,
-            paragraphOne: "Trivia Game",
-            paragraphTwo: "Choose your GOT House",
-            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
-            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
-            githubOne: "https://github.com/BrandonMGH/TriviaGame",
-            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
+            picture: MontyPythonHolyGrail,
+            pictureText: MontyPythonHolyGrail,
+            name: "Trivia Game",
+            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://brandonmgh.github.io/TriviaGame/",
+            github: "https://github.com/BrandonMGH/TriviaGame"
         },
         {
-          
-            pictureOne: MontyPythonHolyGrail,
-            pictureTextOne: triviagameTextImage,
-            pictureTwo: GameofThronesWallpaper,
-            pictureTextTwo: gotquizTextImage,
-            paragraphOne: "Trivia Game",
-            paragraphTwo: "Choose your GOT House",
-            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
-            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
-            githubOne: "https://github.com/BrandonMGH/TriviaGame",
-            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
+            picture: GameofThronesWallpaper,
+            pictureText: GameofThronesWallpaper,
+            name: "Psychic Game",
+            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://santo092.github.io/Project-1/",
+            github: "https://github.com/santo092/game-of-thrones-quiz"
         },
-        {
-          
-            pictureOne: MontyPythonHolyGrail,
-            pictureTextOne: triviagameTextImage,
-            pictureTwo: GameofThronesWallpaper,
-            pictureTextTwo: gotquizTextImage,
-            paragraphOne: "Trivia Game",
-            paragraphTwo: "Choose your GOT House",
-            portfolioLinkOne: "https://brandonmgh.github.io/TriviaGame/",
-            portfolioLinkTwo: "https://santo092.github.io/Project-1/",
-            githubOne: "https://github.com/BrandonMGH/TriviaGame",
-            githubTwo: "https://github.com/santo092/game-of-thrones-quiz"
-        },
-     
     ],
 
     NodeProj: [
