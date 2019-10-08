@@ -18,24 +18,24 @@ class HTMLCSSJS extends Component {
   state = {
     javascriptProj: ProjectObject.javascriptProj,
     hoverImageOne: false,
-
+    hoverImageTwo: false, 
   }
 
-  handleOnHoverOne = () => {
-    this.setState({ hoverImageOne: true })
-  }
+  handleOnHoverOne = () =>{
+    this.setState({hoverImageOne:true})
+}
 
-  handleOnHoverTwo = () => {
-    this.setState({ hoverImageTwo: true })
-  }
+handleOnHoverTwo = () =>{
+  this.setState({hoverImageTwo:true})
+}
 
-  handleNoHoverOne = () => {
-    this.setState({ hoverImageOne: false })
-  }
+handleNoHoverOne = () =>{
+  this.setState({hoverImageOne:false})
+}
 
-  handleNoHoverTwo = () => {
-    this.setState({ hoverImageTwo: false })
-  }
+handleNoHoverTwo = () =>{
+  this.setState({hoverImageTwo:false})
+}
 
 
 
@@ -43,30 +43,59 @@ class HTMLCSSJS extends Component {
 
     const javascriptProj = this.state.javascriptProj
     const hoverImageOne = this.state.hoverImageOne
-
+    const hoverImageTwo = this.state.hoverImageTwo
 
     return (
+
       <LightSpeed left>
+        <h3 className="projBorder">HTML/CSS/JAVASCRIPT PROJECTS</h3>
+        <Row>
+          <Col>
+            {javascriptProj.map(properties => (
+              <span>
+                <a href={properties.portfolioLinkOne}>
+                <img src={hoverImageOne ?  properties.pictureTextOne : properties.pictureOne} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
+                </a>
+              </span>
+            ))}
+          </Col>
 
+        </Row>
+        <Row>
+          <Col>
+            {javascriptProj.map(properties => (
+              <span>
+                <a className="test ProjectCol2" href={properties.githubOne}><Button variant="dark">Github Link</Button></a>
+              </span>
+            ))}
+          </Col>
 
-        <section className="portfolioProjects">
-              {javascriptProj.map(properties => (
-                <div>
-                  <img src={hoverImageOne ? properties.pictureText : properties.picture} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne} className="ProjectCol imgBorder hover" />
-                  <h3>{properties.name}</h3>
-                  <p>{properties.paragraph}</p>
-                  <p><strong>Project Type:</strong></p>
-                  <p><strong>My Role: </strong></p>
-                  <section>
-                    <a href={properties.portfolioLink}><button>Project Link</button></a>
-                    <a href={properties.github}><button>GithubLink</button></a>
-                  </section>
-                </div>
-              ))}
-        </section>
+        </Row>
+        <Row>
+          <Col>
+            {javascriptProj.map(properties => (
+              <span>
+                <a href={properties.portfolioLinkTwo}>
+                <img src={hoverImageTwo ?  properties.pictureTextTwo : properties.pictureTwo} onMouseOver={this.handleOnHoverTwo} onMouseOut={this.handleNoHoverTwo}  className="ProjectCol imgBorder hover" />
+                </a>
+              </span>
+            ))}
+          </Col>
 
+        </Row>
+        <Row>
+          <Col>
+            {javascriptProj.map(properties => (
+              <span>
+                <a className="test ProjectCol2" href={properties.githubTwo}><Button variant="dark">Github Link</Button></a>
+              </span>
+            ))}
+          </Col>
 
+        </Row>
       </LightSpeed>
+
+
 
     );
   }

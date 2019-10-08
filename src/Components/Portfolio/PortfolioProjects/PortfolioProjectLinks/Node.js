@@ -43,25 +43,63 @@ handleNoHoverTwo = () =>{
     const hoverImageTwo = this.state.hoverImageTwo
      
     return (
-      <LightSpeed left> 
-      <section className="portfolioProjects">
-      
-        {nodeProj.map(properties => (
-                   <div>
-                   <img src={hoverImageOne ?  properties.pictureText : properties.picture} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
-                   <h3>{properties.name}</h3>
-                   <p>{properties.paragraph}</p>
-                   <p><strong>Project Type:</strong></p>
-                   <p><strong>My Role: </strong></p>
-                   <section>
-                     <a href={properties.portfolioLink}><button>Project Link</button></a>
-                     <a href={properties.github}><button>GithubLink</button></a>
-                   </section>
-                   </div>
-            ))}
-      </section>
-      </LightSpeed>
      
+       <LightSpeed left>
+        <h3 className="projBorder">NODE PROJECTS</h3> 
+        <Row>
+          <Col>
+          {nodeProj.map(properties => (
+            <span>
+                <a href={properties.portfolioLinkOne}>
+                  <span>
+                  <img src={hoverImageOne ?  properties.pictureTextOne : properties.pictureOne} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
+                  </span>
+                  </a>
+              
+            </span>
+          ))}
+
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            {nodeProj.map(properties => (
+              <span>
+                <a className="test ProjectCol2" href={properties.githubOne}><Button variant="dark">Github Link</Button></a>
+              </span>
+            ))}
+          </Col>
+
+        </Row>
+        <Row>
+          <Col>
+          {nodeProj.map(properties => (
+            <span>
+                <a href={properties.portfolioLinkTwo}>
+                  <span>
+                  <img src={hoverImageTwo ?  properties.pictureTextTwo : properties.pictureTwo} onMouseOver={this.handleOnHoverTwo} onMouseOut={this.handleNoHoverTwo}  className="ProjectCol imgBorder hover" />
+                  </span>
+                  </a>
+              
+            </span>
+          ))}
+
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            {nodeProj.map(properties => (
+              <span>
+                <a className="test ProjectCol2" href={properties.githubTwo}><Button variant="dark">Github Link</Button></a>
+              </span>
+            ))}
+          </Col>
+
+        </Row>
+        </LightSpeed>
+      
+      
+
     );
   }
 }
