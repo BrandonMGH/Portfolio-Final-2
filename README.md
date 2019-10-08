@@ -2,7 +2,7 @@
 # MY PORTFOLIO  #
 ### Version 2 ### 
 
-![AstroBearLogo](src/AboutMe/AboutMeInfo/AstroBearLogo.png)
+![AstroBearLogo](src/Components/AboutMe/AboutMeInfo/AstroBearLogo.png)
 
 ## APP USE INSTRUCTIONS ## 
 
