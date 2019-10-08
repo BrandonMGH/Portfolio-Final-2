@@ -44,11 +44,12 @@
     width: 100%;
     margin: 0 auto; 
     /* padding: 15px; */
-    height: 1050px; 
+    height: 1225px; 
     padding-top: 50px;   
     margin-top: 50px; 
     justify-content: center;
 }
+
 
 h1 {
     padding: 50px

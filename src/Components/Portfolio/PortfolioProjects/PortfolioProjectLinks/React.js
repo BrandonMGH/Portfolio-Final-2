@@ -20,13 +20,13 @@ class ReactProj extends Component {
   }
 
 
-  handleOnHoverOne = () =>{
-    this.setState({hoverImageOne:true})
-}
+  handleOnHoverOne = () => {
+    this.setState({ hoverImageOne: true })
+  }
 
-handleNoHoverOne = () =>{
-  this.setState({hoverImageOne:false})
-}
+  handleNoHoverOne = () => {
+    this.setState({ hoverImageOne: false })
+  }
 
 
   render() {
@@ -38,30 +38,24 @@ handleNoHoverOne = () =>{
     return (
 
       <LightSpeed left>
+        <section className="portfolioProjects">
 
-        <h3 className="projBorder">REACT PROJECTS</h3>
-        <Row>
-          <Col>
-            {reactProj.map(properties => (
-              <span>
-                <a href={properties.portfolioLink}>
-                <img src={hoverImageOne ?  properties.pictureTextOne : properties.pictureOne} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne}  className="ProjectCol imgBorder hover" />
-                </a>
-              </span>
-            ))}
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            {reactProj.map(properties => (
-              <span>
-                <a className="test ProjectCol2" href={properties.github}><Button variant="dark">Github Link</Button></a>
-              </span>
-            ))}
-          </Col>
-
-        </Row>
+          {reactProj.map(properties => (
+            <div>
+              <img src={hoverImageOne ? properties.pictureText : properties.picture} onMouseOver={this.handleOnHoverOne} onMouseOut={this.handleNoHoverOne} className="ProjectCol imgBorder hover" />
+              <h3>{properties.name}</h3>
+              <p>{properties.paragraph}</p>
+              <p><strong>Project Type:</strong></p>
+              <p><strong>My Role: </strong></p>
+              <section>
+                <a href={properties.portfolioLink}><button>Project Link</button></a>
+                <a href={properties.github}><button>GithubLink</button></a>
+              </section>
+            </div>
+          ))}
+        </section>
       </LightSpeed>
+
 
     );
   }

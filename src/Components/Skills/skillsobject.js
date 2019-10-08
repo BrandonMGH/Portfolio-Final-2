@@ -7,7 +7,7 @@ import Otherimage from './Images/Otherimage.png'
 
 const skillsObject = {
     skillsArrayOne: [
-        {
+        {   
             title: "HTML",
             image: HTMLimage,
         },

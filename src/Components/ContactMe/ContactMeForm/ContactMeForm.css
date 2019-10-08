@@ -12,6 +12,17 @@
     height: 1000px; 
 }
 
+/* @media screen and (min-width: 776px) {
+    .contactMeContainer {
+      
+    }
+  }
+  @media screen and (min-width: 992px) {
+    .contactMeContainer {
+       
+    }
+  } */
+
 
 .contactMeIconContainer {
     width: 33%;

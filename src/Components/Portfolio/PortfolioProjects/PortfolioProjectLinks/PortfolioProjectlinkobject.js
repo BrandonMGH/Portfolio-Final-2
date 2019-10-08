@@ -37,7 +37,7 @@ const ProjectObject = {
             picture: PsyButImg,
             pictureText: PsyButImg,
             name: "Psychic Game",
-            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://brandonmgh.github.io/Psychic-Game/",
             github: "https://github.com/BrandonMGH/Psychic-Game"
         },
@@ -45,7 +45,7 @@ const ProjectObject = {
             picture: DarthVader,
             pictureText: DarthVader,
             name: "Giftastic",
-            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://brandonmgh.github.io/GifTastic/",
             github: "https://github.com/BrandonMGH/GifTastic"
         },
@@ -53,7 +53,7 @@ const ProjectObject = {
             picture: Link,
             pictureText: Link,
             name: "Crystal Clicker Game",
-            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://brandonmgh.github.io/unit-4-game/",
             github: "https://github.com/BrandonMGH/unit-4-game"
         },
@@ -61,7 +61,7 @@ const ProjectObject = {
             picture: train,
             pictureText: train,
             name: "Train Scheduler",
-            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
             github: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
         },
@@ -69,7 +69,7 @@ const ProjectObject = {
             picture: MontyPythonHolyGrail,
             pictureText: MontyPythonHolyGrail,
             name: "Trivia Game",
-            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://brandonmgh.github.io/TriviaGame/",
             github: "https://github.com/BrandonMGH/TriviaGame"
         },
@@ -77,7 +77,7 @@ const ProjectObject = {
             picture: GameofThronesWallpaper,
             pictureText: GameofThronesWallpaper,
             name: "Psychic Game",
-            paragraph: "Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://santo092.github.io/Project-1/",
             github: "https://github.com/santo092/game-of-thrones-quiz"
         },
@@ -85,111 +85,130 @@ const ProjectObject = {
 
     NodeProj: [
         {
-          
-            pictureOne: botimage2,
-            pictureTextOne: liribotTextImage,
-            pictureTwo: bestfriends, 
-            pictureTextTwo: friendfinderTextImage,
-            paragraphOne: "Liri-bot",
-            paragraphTwo: "Friend-Finder",
-            portfolioLinkOne: "https://github.com/BrandonMGH/liri-node-ap",
-            portfolioLinkTwo: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
-            githubOne: "https://github.com/BrandonMGH/liri-node-ap",
-            githubTwo: "https://github.com/BrandonMGH/Friend-Finder"
+            picture: botimage2,
+            pictureText: botimage2,
+            name: "Liri-bot",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://github.com/BrandonMGH/liri-node-ap",
+            github: "https://github.com/BrandonMGH/liri-node-ap",
         },
         {
-          
-            pictureOne: wordguesser,
-            pictureTextOne: wordguesserTextImage,
-            pictureTwo: hamburger,
-            pictureTextTwo: wantaburgerTextImage,
-            paragraphOne: "Constructor Word Guesser",
-            paragraphTwo: "WANT-A-BURGER?!",
-            portfolioLinkOne: "https://github.com/BrandonMGH/Constructor-Word-Guess",
-            portfolioLinkTwo: "https://want-a-burger.herokuapp.com/",
-            githubOne: "https://github.com/BrandonMGH/Constructor-Word-Guess",
-            githubTwo: "https://github.com/BrandonMGH/Burger"
-
+            picture: bestfriends,
+            pictureText: bestfriends,
+            name: "Friend-Finder",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
+            github: "https://github.com/BrandonMGH/Friend-Finder"
         },
         {
-           
-            pictureOne: OnlineShoppingIcon,
-            pictureTextOne: BamazonTextImage,
-            pictureTwo: codespot,
-            pictureTextTwo: codespotTextImage,
-            paragraphOne: "Bamazon SQL Storefront",
-            paragraphTwo: "CodeSpot",
-            portfolioLinkOne: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
-            portfolioTwo: "https://codespot.herokuapp.com/",
-            githubOne: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
-            githubTwo: "https://github.com/BrandonMGH/Project2"
+            picture: wordguesser,
+            pictureText: wordguesser,
+            name: "Constructor Word Guesser",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://github.com/BrandonMGH/Constructor-Word-Guess",
+            github: "https://github.com/BrandonMGH/Constructor-Word-Guess",
+        },
+        {
+            picture: hamburger,
+            pictureText: hamburger,
+            name: "WANT-A-BURGER?!",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://want-a-burger.herokuapp.com/",
+            github: "https://github.com/BrandonMGH/Burger"
+        },
+        {
+            picture: OnlineShoppingIcon,
+            pictureText: OnlineShoppingIcon,
+            name: "Bamazon SQL Storefront",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
+            github: "https://github.com/BrandonMGH/MySQL_StoreFront_Database-",
+        },
+        {
+            picture: codespot,
+            pictureText: codespot,
+            name: "CodeSpot",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://codespot.herokuapp.com/",
+            github: "https://github.com/BrandonMGH/Project2"
         },
     ],
 
     reactProj: [
         {
-            
-            pictureOne: newspapers,
-            pictureTextOne: newspapersTextImg,
-            paragraph: "NewsScraper",
+            picture: newspapers,
+            pictureText: newspapers,
+            name: "NewsScraper",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://quillette-app-scrap.herokuapp.com/",
             github: "https://github.com/BrandonMGH/NewsScraper"
         },
         {
-            
-            pictureOne: spongebob,
-            pictureTextOne: clickyGameTextImage, 
-            paragraph: "Clicky-Game",
+            picture: spongebob,
+            pictureText: spongebob,
+            name: "Clicky-Game",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://clicky-game-reactjs-app.herokuapp.com/",
             github: "https://github.com/BrandonMGH/Clicky-Game"
         },
         {
-         
-            pictureOne: photographer,
-            pictureTextOne: sparkitechsTextImage, 
-            paragraph: "SparkItechs",
+            picture: photographer,
+            pictureText: photographer,
+            name: "SparkItechs",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
             portfolioLink: "https://spark-i-techs.herokuapp.com/",
             github: "https://github.com/avlegend/Project3"
         },
-
     ],
 
     TopProj: [
         {
-            pictureOne: newspapers,
-            pictureTextOne: newspapersTextImg,
-            pictureTwo: codespot,
-            pictureTextTwo: codespotTextImage,
-            paragraphOne: "NewsScraper",
-            paragraphTwo: "CodeSpot",
-            portfolioLinkOne: "https://quillette-app-scrap.herokuapp.com/",
-            portfolioLinkTwo: "https://codespot.herokuapp.com/",
-            githubOne: "https://github.com/BrandonMGH/NewsScraper",
-            githubTwo: "https://github.com/BrandonMGH/Project2"
+            picture: newspapers,
+            pictureText: newspapers,
+            name: "NewsScraper",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://quillette-app-scrap.herokuapp.com/",
+            github: "https://github.com/BrandonMGH/NewsScraper"
         },
         {
-            pictureOne: spongebob,
-            pictureTextOne: clickyGameTextImage, 
-            pictureTwo: bestfriends, 
-            pictureTextTwo: friendfinderTextImage,
-            paragraphOne: "Clicky-game",
-            paragraphTwo: "Friend-Finder",
-            portfolioLinkOne: "https://clicky-game-reactjs-app.herokuapp.com/",
-            portfolioLinkTwo: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
-            githubOne: "https://github.com/BrandonMGH/Clicky-Game",
-            githubTwo: "https://github.com/BrandonMGH/Friend-Finder"
+            picture: spongebob,
+            pictureText: spongebob,
+            name: "Clicky-Game",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://clicky-game-reactjs-app.herokuapp.com/",
+            github: "https://github.com/BrandonMGH/Clicky-Game"
         },
         {
-            pictureOne: photographer,
-            pictureTextOne: sparkitechsTextImage, 
-            pictureTwo: train, 
-            pictureTextTwo: trainschedulerTextImage,
-            paragraphOne: "SparkItechs",
-            paragraphTwo: "Train Scheduler",
-            portfolioLinkOne: "https://spark-i-techs.herokuapp.com/",
-            portfolioLinkTwo: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
-            githubOne: "https://github.com/avlegend/Project3",
-            githubTwo: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
+            picture: photographer,
+            pictureText: photographer,
+            name: "SparkItechs",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://spark-i-techs.herokuapp.com/",
+            github: "https://github.com/avlegend/Project3"
+        },
+        {
+            picture: codespot,
+            pictureText: codespot,
+            name: "CodeSpot",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://codespot.herokuapp.com/",
+            github: "https://github.com/BrandonMGH/Project2"
+        },
+        {
+            picture: bestfriends,
+            pictureText: bestfriends,
+            name: "Friend-Finder",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://friend-finder-app-ucsd.herokuapp.com/home.html",
+            github: "https://github.com/BrandonMGH/Friend-Finder"
+        },
+        {
+            picture: train,
+            pictureText: train,
+            name: "Train Scheduler",
+            paragraph:"Lorem Ipsum yaafaskfjas fajkflasjf klajsfkla sjfkajsfkljaslkf aklfjaklsjfklas fkjlalf",
+            portfolioLink: "https://brandonmgh.github.io/Firebase-Assignment---Train-Scheduler/",
+            github: "https://github.com/BrandonMGH/Firebase-Assignment---Train-Scheduler"
         },
        
     ]

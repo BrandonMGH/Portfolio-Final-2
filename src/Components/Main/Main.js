@@ -28,26 +28,6 @@ class Main extends Component {
       Contact: "ContactMeScroll"
     }
     return (<div>
-
-    {/* <nav role="navigation">
-      <div id="menuToggle">
-
-       <input type="checkbox"/> 
-
-        <span></span>
-        <span></span>
-        <span></span>
-
-
-        <ul id="menu">
-          <ScrollIntoView selector=".AboutMeScroll"><a><li id="pointer">About</li></a></ScrollIntoView>
-          <ScrollIntoView selector=".SkillsScroll"><a><li id="pointer">Skills</li></a></ScrollIntoView>
-          <ScrollIntoView selector=".PortfolioScroll"><a><li id="pointer">Portfolio</li></a></ScrollIntoView>
-          <ScrollIntoView selector=".ContactMeScroll"><a><li id="pointer">Contact</li></a></ScrollIntoView>
-          <ScrollIntoView selector=".TitleScroll"><a><li>Return to Top</li></a></ScrollIntoView>
-        </ul>
-      </div>
-    </nav> */}
     
     <div><NavigationBar /></div>
     <div className={scrollIntoViewInfo.Title} title="" title><Title /></div>

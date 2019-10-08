@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import GoogleFontLoader from 'react-google-font-loader';
 import Bounce from 'react-reveal/Bounce';
 import AstroBearLogo from './Images/AstroBearLogo.png'
-import "./Title.css";
+
 
 class Title extends Component {
   
