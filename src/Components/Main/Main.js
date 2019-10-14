@@ -6,7 +6,7 @@ import NavigationBar from '../NavBar/Navbar'
 import Title from '../Title/Title'
 import AboutMe from '../AboutMe/AboutMe'
 import Skills from '../Skills/skills'
-import Bufferzone from '../Bufferzone/Bufferzone'
+import PopUpWindow from '../PopUpWindow/PopUpWindow'
 import Portfolio from '../Portfolio/Portfolio'
 import ContactMe from '../ContactMe/ContactMe'
 import Footer from '../Footer/Footer'
@@ -48,7 +48,8 @@ class Main extends Component {
         </ul>
       </div>
     </nav> */}
-    
+
+    <div><PopUpWindow /></div>
     <div><NavigationBar /></div>
     <div className={scrollIntoViewInfo.Title} title="" title><Title /></div>
     <div className={scrollIntoViewInfo.About}><AboutMe /></div>
